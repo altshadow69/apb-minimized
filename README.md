@@ -13,12 +13,12 @@ after that, go to the `APB Reloaded\Binaries` and create a shortcut for `APB.EXE
 >[!NOTE]
 >the minimized markers effects the map texts and it will only shows the icon only
 
-- Improved vehicle status with coloring
+- Improved bottom text vehicle status with coloring
 ![Preview](https://i.imgur.com/601GOW4.png)
 - Simplified resupply text with icon
-![Preview](https://i.imgur.com/2nTlp4C.jpeg)
+![Preview](https://i.imgur.com/Tmau4AP.png)
 - Transparent UI
-![Preview](https://i.imgur.com/qBcz5iG.jpeg)
+![Preview](https://i.imgur.com/QX3ToJw.png)
 - And much more
 
 ## Stay Tune For Nore Updates!
