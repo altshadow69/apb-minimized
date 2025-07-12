@@ -12,6 +12,7 @@ after that, go to the `APB Reloaded\Binaries` and create a shortcut for `APB.EXE
 - Minimized hud objective markers
 >[!NOTE]
 >the minimized markers effects the map texts and it will only shows the icon only
+
 ![Preview](https://i.imgur.com/601GOW4.png)
 - Improved vehicle status with coloring
 ![Preview](https://i.imgur.com/2nTlp4C.jpeg)
