@@ -1,5 +1,5 @@
 # About
-the point of this config is to modernized and stylized the looks of UI of my own Tast
+the point of this config is to improving and modernized/stylized looks the UI of APB
 
 # installation
 to install this config, just drag and drop the `APBGame` file from your downloads into `APB Reloaded\APBGame` file.
