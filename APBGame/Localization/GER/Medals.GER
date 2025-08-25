@@ -1,17 +1,17 @@
 
 [Medals]
 
-Medals_KillStreak_05_Title=Kill Streak: 5
+Medals_KillStreak_05_Title=| 5 | Kill Streak
 Medals_KillStreak_05_Description=Kill Five Opponents Without Dying
-Medals_KillStreak_10_Title=Kill Streak: 10
+Medals_KillStreak_10_Title=| 10 | Kill Streak
 Medals_KillStreak_10_Description=Kill Ten Opponents Without Dying
-Medals_KillStreak_15_Title=Kill Streak: 15
+Medals_KillStreak_15_Title=| 15 | Kill Streak
 Medals_KillStreak_15_Description=Kill Fifteen Opponents Without Dying
-Medals_KillStreak_20_Title=Kill Streak: 20
+Medals_KillStreak_20_Title=| 20 | Kill Streak
 Medals_KillStreak_20_Description=Kill Twenty Opponents Without Dying
-Medals_KillStreak_25_Title=Kill Streak: 25
+Medals_KillStreak_25_Title=| 25 | Kill Streak
 Medals_KillStreak_25_Description=Kill Twenty-Five Opponents Without Dying
-Medals_KillStreak_30_Title=Kill Streak: 30
+Medals_KillStreak_30_Title=| 30 | Kill Streak
 Medals_KillStreak_30_Description=Kill Thirty Opponents Without Dying
  
 Medals_TimeLimit_Kills_2_Title=Double Blitzkrieg
@@ -24,49 +24,27 @@ Medals_TimeLimit_Kills_5_Title=Penta Blitzkrieg
 Medals_TimeLimit_Kills_5_Description=Kill 5 Opponents Within 25 Seconds
  
 Medals_Situational_SuperKill_Title=Elimination
-Medals_Situational_SuperKill_Description=Kill An entire team at the same time
-Medals_Situational_KillStreakKiller_Title=Kill-Joyer
+Medals_Situational_SuperKill_Description=Kill An Entire Team At The Same Time
+Medals_Situational_KillStreakKiller_Title=Kill Joyer
 Medals_Situational_KillStreakKiller_Description=Kill An Opponent Who Has Killed 5 Or More Players Without A Death
 Medals_Situational_KillStreakArrest_Title=Judge Dredd
 Medals_Situational_KillStreakArrest_Description=Arrest An Opponent Who Has Killed 5 Or More Players Without A Death
 Medals_Situational_ArrestStreakKiller_Title=Chief Butcherd
 Medals_Situational_ArrestStreakKiller_Description=Kill An Opponent Who Has Arrested 5 Or More Players Without A Death
- 
-Medals_BigWin_Takeout_5_Title=Phantom Reaper
-Medals_BigWin_Takeout_5_Description=Win With At Least 5 Takeouts
-Medals_BigWin_Takeout_7_Title=Dread Reaper
-Medals_BigWin_Takeout_7_Description=Win With At Least 7 Takeouts
-Medals_BigWin_Takeout_9_Title=Soulbound Reaper
-Medals_BigWin_Takeout_9_Description=Win With At Least 9 Takeouts
-Medals_BigWin_Takeout_11_Title=Eclipse Reaper
-Medals_BigWin_Takeout_11_Description=Win With At Least 11 Takeouts
-Medals_BigWin_Takeout_15_Title=Oblivion Reaper
-Medals_BigWin_Takeout_15_Description=Win With At Least 15 Takeouts
- 
-Medals_BigWin_Arrest_10_25_Title=Judicator: One
-Medals_BigWin_Arrest_10_25_Description=Win With 25 Present Of Arrests
-Medals_BigWin_Arrest_10_33_Title=Judicator: Two
-Medals_BigWin_Arrest_10_33_Description=Win With 33 Present Of Arrests
-Medals_BigWin_Arrest_10_50_Title=Judicator: Three
-Medals_BigWin_Arrest_10_50_Description=Win With 50 Present Of Arrests
-Medals_BigWin_Arrest_10_75_Title=Judicator: Four
-Medals_BigWin_Arrest_10_75_Description=Win With 75 Present Of Arrests
-Medals_BigWin_Arrest_10_100_Title=Judicator: Five
-Medals_BigWin_Arrest_10_100_Description=Win With 100 Present Of Arrests
- 
+
 Medals_BigWin_All_Title=Champion
 Medals_BigWin_All_Description=Win A Mission By Completing All Task Stages Personally
 Medals_BigWin_Defuse_Title=Bomb Technician
 Medals_BigWin_Defuse_Description=Defuse All Bombs On The Mission
-Medals_BigWin_Detonate_Title=Demolition Man
+Medals_BigWin_Detonate_Title=Demolition Men
 Medals_BigWin_Detonate_Description=Detonate And Plant All Bombs On The Mission 
-Medals_Situational_AntiGraffitiKill_Title=Spray-Coverd Denied
+Medals_Situational_AntiGraffitiKill_Title=Spray Coverd Denied
 Medals_Situational_AntiGraffitiKill_Description=Kill An Opponent While They Are Covering Up Graffiti
 Medals_Situational_GraffitiingKill_Title=C.C.K On Duty
 Medals_Situational_GraffitiingKill_Description=Kill An Opponent While They Are Applying Graffiti
  
 Medals_Situational_DriverAssistKill_Title=Drive By
-Medals_Situational_DriverAssistKill_Description=Let A Passenger Kill An Opponent While Driving
+Medals_Situational_DriverAssistKill_Description=Let A Teammate Passenger Kill An Opponent While Driving
 Medals_Situational_VehicleKill_Title=Vehicular Slaughter
 Medals_Situational_VehicleKill_Description=Kill An Opponent With A Vehicle
  
@@ -79,19 +57,41 @@ Medals_Situational_GrenadeKill_Description=Kill An Opponent With Any Grenade Typ
 Medals_Situational_PostDeathKill_Title=Reach Above The Grave 
 Medals_Situational_PostDeathKill_Description=Kill An Opponent After Your Own Death
 Medals_Situational_VIPKill_Title=Assassination
-Medals_Situational_VIPKill_Description=Kill The Opponent VIP
-;
-Medals_BigWin_Rescue_3_Title=The Rescue Train: 1
+Medals_Situational_VIPKill_Description=Kill The VIP Opponent
+ 
+Medals_BigWin_Takeout_5_Title=| Jade | Reaper
+Medals_BigWin_Takeout_5_Description=Win With At Least 5 Takeouts
+Medals_BigWin_Takeout_7_Title=| Steel | Reaper
+Medals_BigWin_Takeout_7_Description=Win With At Least 7 Takeouts
+Medals_BigWin_Takeout_9_Title=| Bronze | Reaper
+Medals_BigWin_Takeout_9_Description=Win With At Least 9 Takeouts
+Medals_BigWin_Takeout_11_Title=| Silver | Reaper
+Medals_BigWin_Takeout_11_Description=Win With At Least 11 Takeouts
+Medals_BigWin_Takeout_15_Title=| Gold | Reaper
+Medals_BigWin_Takeout_15_Description=Win With At Least 15 Takeouts
+ 
+Medals_BigWin_Arrest_10_25_Title=| Jade | Judicator
+Medals_BigWin_Arrest_10_25_Description=Win With 25 Present Of Arrests
+Medals_BigWin_Arrest_10_33_Title=| Steel | Judicator
+Medals_BigWin_Arrest_10_33_Description=Win With 33 Present Of Arrests
+Medals_BigWin_Arrest_10_50_Title=| Bronze | Judicator
+Medals_BigWin_Arrest_10_50_Description=Win With 50 Present Of Arrests
+Medals_BigWin_Arrest_10_75_Title=| Silver | Judicator
+Medals_BigWin_Arrest_10_75_Description=Win With 75 Present Of Arrests
+Medals_BigWin_Arrest_10_100_Title=| Gold | Judicator
+Medals_BigWin_Arrest_10_100_Description=Win With 100 Present Of Arrests
+
+Medals_BigWin_Rescue_3_Title=| Jade | Rescue Train
 Medals_BigWin_Rescue_3_Description=Free 3 Teammates From Arrest
-Medals_BigWin_Rescue_6_Title=The Rescue Train: 2
+Medals_BigWin_Rescue_6_Title=| Steel | Rescue Train
 Medals_BigWin_Rescue_6_Description=Free 6 Teammates From Arrest
-Medals_BigWin_Rescue_9_Title=The Rescue Train: 3
+Medals_BigWin_Rescue_9_Title=| Bronze | Rescue Train
 Medals_BigWin_Rescue_9_Description=Free 9 Teammates From Arrest
-Medals_BigWin_Rescue_12_Title=The Rescue Train: 4
+Medals_BigWin_Rescue_12_Title=| Silver | Rescue Train
 Medals_BigWin_Rescue_12_Description=Free 12 Teammates From Arrest
-Medals_BigWin_Rescue_15_Title=The Rescue Train: 5
+Medals_BigWin_Rescue_15_Title=| Gold | Rescue Train 
 Medals_BigWin_Rescue_15_Description=Free 15 Teammates From Arrest
-;
+ 
 Medals_Dishonour_ArrestedKill_1_Title=Police Brutality: 1
 Medals_Dishonour_ArrestedKill_1_Description=Kill One Arrested Opponents
 Medals_Dishonour_ArrestedKill_2_Title=Police Brutality: 2
@@ -112,7 +112,7 @@ Medals_Dishonour_ArrestedKill_9_Title=Police Brutality: 9
 Medals_Dishonour_ArrestedKill_9_Description=Kill Nine Arrested Opponents
 Medals_Dishonour_ArrestedKill_10_Title=Police Brutality: 10
 Medals_Dishonour_ArrestedKill_10_Description=Kill Ten Arrested Opponents
-;
+ 
 Medals_Dishonour_FriendlyKill_1_Title=Friendly Fire: 1
 Medals_Dishonour_FriendlyKill_1_Description=Kill One Of Your Teammate
 Medals_Dishonour_FriendlyKill_2_Title=Friendly Fire: 2
@@ -133,7 +133,7 @@ Medals_Dishonour_FriendlyKill_9_Title=Friendly Fire: 9
 Medals_Dishonour_FriendlyKill_9_Description=Kill Nine Of Your Teammate
 Medals_Dishonour_FriendlyKill_10_Title=Friendly Fire: 10
 Medals_Dishonour_FriendlyKill_10_Description=Kill Ten Of Your Teammate
-;
+ 
 Medals_Dishonour_FriendlyStun_1_Title=Friendly Stunned: 1
 Medals_Dishonour_FriendlyStun_1_Description=Stun One Of Your Teammate
 Medals_Dishonour_FriendlyStun_2_Title=Friendly Stunned: 2
@@ -144,7 +144,7 @@ Medals_Dishonour_FriendlyStun_4_Title=Friendly Stunned: 4
 Medals_Dishonour_FriendlyStun_4_Description=Stun Four Of Your Teammate
 Medals_Dishonour_FriendlyStun_5_Title=Friendly Stunned: 5
 Medals_Dishonour_FriendlyStun_5_Description=Stun Five Of Your Teammate
-;
+ 
 Medals_Dishonour_SelfKill_02_Title=Suicide: 2
 Medals_Dishonour_SelfKill_02_Description=Kill Yourself In Two Times
 Medals_Dishonour_SelfKill_03_Title=Suicide: 3
@@ -171,10 +171,12 @@ Medals_Dishonour_SelfKill_25_Title=Suicide: 25
 Medals_Dishonour_SelfKill_25_Description=Kill Yourself In Twenty-five Times
 Medals_Dishonour_SelfKill_30_Title=Suicide: 30
 Medals_Dishonour_SelfKill_30_Description=Kill Yourself In Thirty Times
-;
+ 
 Medals_Dishonour_AFK_Title=Sleepy Head
 Medals_Dishonour_AFK_Description=AFK On An Mission
-; unused
+
+;
+;;   unused
 Medals_KillBehind_Title=Backstabber
 Medals_KillBehind_Description=Kill An Opponent from behind With a melee weapon
 Medals_Situational_MeleeKill_Title=Battery
