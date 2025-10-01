@@ -1,26 +1,26 @@
 
 [Medals]
 
-Medals_KillStreak_05_Title=| 5 | Kill Streak
+Medals_KillStreak_05_Title=Kill Streak: Copper
 Medals_KillStreak_05_Description=Kill Five Opponents Without Dying
-Medals_KillStreak_10_Title=| 10 | Kill Streak
+Medals_KillStreak_10_Title=Kill Streak: Jade
 Medals_KillStreak_10_Description=Kill Ten Opponents Without Dying
-Medals_KillStreak_15_Title=| 15 | Kill Streak
+Medals_KillStreak_15_Title=Kill Streak: Steel
 Medals_KillStreak_15_Description=Kill Fifteen Opponents Without Dying
-Medals_KillStreak_20_Title=| 20 | Kill Streak
+Medals_KillStreak_20_Title=Kill Streak: Bronze
 Medals_KillStreak_20_Description=Kill Twenty Opponents Without Dying
-Medals_KillStreak_25_Title=| 25 | Kill Streak
+Medals_KillStreak_25_Title=Kill Streak: Silver
 Medals_KillStreak_25_Description=Kill Twenty-Five Opponents Without Dying
-Medals_KillStreak_30_Title=| 30 | Kill Streak
+Medals_KillStreak_30_Title=Kill Streak: Gold
 Medals_KillStreak_30_Description=Kill Thirty Opponents Without Dying
  
-Medals_TimeLimit_Kills_2_Title=Double Blitzkrieg
+Medals_TimeLimit_Kills_2_Title=Blitzkrieg: Steel
 Medals_TimeLimit_Kills_2_Description=Kill 2 Opponents Within 5 Seconds
-Medals_TimeLimit_Kills_3_Title=Triple Blitzkrieg
+Medals_TimeLimit_Kills_3_Title=Blitzkrieg: Bronze
 Medals_TimeLimit_Kills_3_Description=Kill 3 Opponents Within 10 Seconds
-Medals_TimeLimit_Kills_4_Title=Quadra Blitzkrieg
+Medals_TimeLimit_Kills_4_Title=Blitzkrieg: Silver
 Medals_TimeLimit_Kills_4_Description=Kill 4 Opponents Within 15 Seconds
-Medals_TimeLimit_Kills_5_Title=Penta Blitzkrieg
+Medals_TimeLimit_Kills_5_Title=Blitzkrieg: Gold
 Medals_TimeLimit_Kills_5_Description=Kill 5 Opponents Within 25 Seconds
  
 Medals_Situational_SuperKill_Title=Elimination
@@ -45,51 +45,51 @@ Medals_Situational_GraffitiingKill_Description=Kill An Opponent While They Are A
  
 Medals_Situational_DriverAssistKill_Title=Drive By
 Medals_Situational_DriverAssistKill_Description=Let A Teammate Passenger Kill An Opponent While Driving
-Medals_Situational_VehicleKill_Title=Vehicular Slaughter
+Medals_Situational_VehicleKill_Title=Fatal Collision
 Medals_Situational_VehicleKill_Description=Kill An Opponent With A Vehicle
  
-Medals_Situational_ArsonKill_Title=Firebug Extinguisher
+Medals_Situational_ArsonKill_Title=The Extinguisher
 Medals_Situational_ArsonKill_Description=Kill An Opponent While They Are Committing Arson
 Medals_Situational_TaskItemKill_1_Title=Mailman Slayer
 Medals_Situational_TaskItemKill_1_Description=Kill An Opponent Who Is Carrying A Task Item
 Medals_Situational_GrenadeKill_Title=Nade it
 Medals_Situational_GrenadeKill_Description=Kill An Opponent With Any Grenade Types
-Medals_Situational_PostDeathKill_Title=Reach Above The Grave 
+Medals_Situational_PostDeathKill_Title=The Grave's Gift
 Medals_Situational_PostDeathKill_Description=Kill An Opponent After Your Own Death
 Medals_Situational_VIPKill_Title=Assassination
 Medals_Situational_VIPKill_Description=Kill The VIP Opponent
  
-Medals_BigWin_Takeout_5_Title=| Jade | Reaper
+Medals_BigWin_Takeout_5_Title=Reaper: Jade
 Medals_BigWin_Takeout_5_Description=Win With At Least 5 Takeouts
-Medals_BigWin_Takeout_7_Title=| Steel | Reaper
+Medals_BigWin_Takeout_7_Title=Reaper: Steel
 Medals_BigWin_Takeout_7_Description=Win With At Least 7 Takeouts
-Medals_BigWin_Takeout_9_Title=| Bronze | Reaper
+Medals_BigWin_Takeout_9_Title=Reaper: Bronze
 Medals_BigWin_Takeout_9_Description=Win With At Least 9 Takeouts
-Medals_BigWin_Takeout_11_Title=| Silver | Reaper
+Medals_BigWin_Takeout_11_Title=Reaper: Silver
 Medals_BigWin_Takeout_11_Description=Win With At Least 11 Takeouts
-Medals_BigWin_Takeout_15_Title=| Gold | Reaper
+Medals_BigWin_Takeout_15_Title=Reaper: Gold
 Medals_BigWin_Takeout_15_Description=Win With At Least 15 Takeouts
  
-Medals_BigWin_Arrest_10_25_Title=| Jade | Judicator
+Medals_BigWin_Arrest_10_25_Title=Judicator: Jade
 Medals_BigWin_Arrest_10_25_Description=Win With 25 Present Of Arrests
-Medals_BigWin_Arrest_10_33_Title=| Steel | Judicator
+Medals_BigWin_Arrest_10_33_Title=Judicator: Steel
 Medals_BigWin_Arrest_10_33_Description=Win With 33 Present Of Arrests
-Medals_BigWin_Arrest_10_50_Title=| Bronze | Judicator
+Medals_BigWin_Arrest_10_50_Title=Judicator: Bronze
 Medals_BigWin_Arrest_10_50_Description=Win With 50 Present Of Arrests
-Medals_BigWin_Arrest_10_75_Title=| Silver | Judicator
+Medals_BigWin_Arrest_10_75_Title=Judicator: Silver
 Medals_BigWin_Arrest_10_75_Description=Win With 75 Present Of Arrests
-Medals_BigWin_Arrest_10_100_Title=| Gold | Judicator
+Medals_BigWin_Arrest_10_100_Title=Judicator: Gold
 Medals_BigWin_Arrest_10_100_Description=Win With 100 Present Of Arrests
 
-Medals_BigWin_Rescue_3_Title=| Jade | Rescue Train
+Medals_BigWin_Rescue_3_Title=Rescue Train: Jade
 Medals_BigWin_Rescue_3_Description=Free 3 Teammates From Arrest
-Medals_BigWin_Rescue_6_Title=| Steel | Rescue Train
+Medals_BigWin_Rescue_6_Title=Rescue Train: Steel
 Medals_BigWin_Rescue_6_Description=Free 6 Teammates From Arrest
-Medals_BigWin_Rescue_9_Title=| Bronze | Rescue Train
+Medals_BigWin_Rescue_9_Title=Rescue Train: Bronze
 Medals_BigWin_Rescue_9_Description=Free 9 Teammates From Arrest
-Medals_BigWin_Rescue_12_Title=| Silver | Rescue Train
+Medals_BigWin_Rescue_12_Title=Rescue Train: Silver
 Medals_BigWin_Rescue_12_Description=Free 12 Teammates From Arrest
-Medals_BigWin_Rescue_15_Title=| Gold | Rescue Train 
+Medals_BigWin_Rescue_15_Title=Rescue Train: Gold
 Medals_BigWin_Rescue_15_Description=Free 15 Teammates From Arrest
  
 Medals_Dishonour_ArrestedKill_1_Title=Police Brutality: 1
