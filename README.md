@@ -5,10 +5,11 @@ The purpose of this config is to improve and modernize the look of APB’s UI. S
 > this config is still working progress so stay tune for more updates!
 
 # installation
-to install this config, just drag and drop the `APBGame` file from your downloads into `APB Reloaded\APBGame` file.
+To install the configuration, just drag and drop the `APBGame` file from your downloads into `APB Reloaded\APBGame` file.
 after that, go to the `APB Reloaded\Binaries` and create a shortcut for `APB.EXE`, then go to the Properties in shortcut application into Target and add this next to the command line `-language=1031` then launch the game via shortcut application.
+![Preview](https://i.imgur.com/ygONQe8.png)
 > [!IMPORTANT]
-> If you already have other configs installed in your APB files, install only the Localization folder and skip the Config folder.
+> If you already have other configs installed in your APB files, Only install the `Localization` folder and skip the `Config` folder inside of the `APBGame`.
 
 # Key Features
 - ### Brand new Death-Cam with a proper adjust!
@@ -25,10 +26,10 @@ after that, go to the `APB Reloaded\Binaries` and create a shortcut for `APB.EXE
 # And much more
 
 ## Credits
-- lolmort
-  * Promotion Images
-- EllixOnline
-  * Assets Rips For The Ingame Icons ( As Reference )
 - Myamai
   * For Hosting The Localization Resources Site (https://myamai.neocities.org/apb/localization)
+- EllixOnline
+  * Assets Rips For The Ingame Icons ( As Reference )
+- lolmort
+  * Promotion Images
 
