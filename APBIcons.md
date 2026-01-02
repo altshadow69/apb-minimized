@@ -1,53 +1,53 @@
 ## Extension between HUDIcon / HUDTexture
 
-"HUDIcon" Usage for the In "Generic_Icons_Master" can be seems here "https://i.imgur.com/E506K3r.png" and others stuffs as Labeled as Icon could work
+"HUDIcon" Usage for the In "Generic_Icons_Master" can be seems [Here!](https://i.imgur.com/E506K3r.png) and others stuffs as Labeled as Icon could work
 
-"HUDTexture" Usage for the In Game Hud Textures Images, like "Icon_Locker_Generic_Token" "Vehicle_PatriotVegasG20" "Weapon_Pistol_FBW" ( "KillIcon_Pistol_FBW" Usage in hud message element )
+"HUDTexture" Usage for the In Game Hud Textures Images, For Example\
+`Icon_Locker_Generic_Token` `Vehicle_PatriotVegasG20` `Weapon_Pistol_FBW` / `KillIcon_Pistol_FBW`
 
 ## HUDIcon
 
-if the HUDIcon text is in User Interface, Element. / "APBUserInterface.GER" etc.
-then use
-`<APB_Images:APBCash;HUDIcon=TRUE>`
+if the HUDIcon text is in, User Interface Element. / "APBUserInterface.GER" etc.\
+then use `<APB_Images:APBCash;HUDIcon=TRUE>`
 
-if the HUDIcon text is in Hud Message, Element. / "HUDMessages.GER"
-then use
-`<hudicon:APBCash>`
+if the HUDIcon text is in, Hud Message Element. / "HUDMessages.GER"\
+then use `<hudicon:APBCash>`
+
 ## HUDTexture
-if the HUDTexture text is in a User Interface, Element.
-then use
-`<APB_Images:Icon_Locker_Generic_Token;HUDTexture=TRUE>`
 
-if the HUDTexture text is in a Hud Message, Element.
-then use
-`<hudtexture:Icon_Locker_Generic_Token>`
+if the HUDTexture text is in, User Interface Element.\
+then use `<APB_Images:Icon_Locker_Generic_Token;HUDTexture=TRUE>`
 
-## Resizing
+if the HUDTexture text is in, Hud Message Element.\
+then use `<hudtexture:Icon_Locker_Generic_Token>`
 
-if you want to resize the Icon Image
-then use
-"XL=16 YL=16" and then add "Resize=TRUE" next to it
+## Resizing HUDIcon
+
+if you want to resize the Icon Image\
+then use "XL=16 YL=16" and then add "Resize=TRUE" next to it\
 `<APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>`
 
-it can also works in the Hud Message Element.
+it can also works in the Hud Message Element.\
 `<hudicon:APBCash;XL=16 YL=16 Resize=TRUE>`
 
-> [!IMPORTANT]
-> Resize for the HUDTexture can also work But it will randomly bug out to a original size.
-> to prevent it, add ``<Color:R=1 G=1 B=1>*then some text*`` to stop resizing to original size. it will kinda works if you know what your doing (In User Interface Element)
+## Resizing HUDTexture
 
-Resize HUDTexture In User Interface Element.
-then use
+Resize HUDTexture In User Interface Element.\
+then use\
 `<APB_Images:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>`
 
-Resize HUDTexture In The Hud Message Element.
-then add "HUDIcon=TRUE"
+Resize HUDTexture In The Hud Message Element. <br/>then add "HUDIcon=TRUE"\
 `<hudtexture:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>`
+
+> [!IMPORTANT]
+> Resize for the HUDTexture can also work But it will randomly bug out to a original size. to prevent it,\
+> Add ``<Color:R=1 G=1 B=1>*then some text*`` to stop resizing to original size. it will kinda works if you know what your doing (In User Interface Element)
 
 # Icons Listing WIP
 
 ```
 ---  Icons
+
 <APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
 <APB_Images:Icon_JokerTickets;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
 <APB_Images:Rating;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
@@ -112,6 +112,7 @@ then add "HUDIcon=TRUE"
 <APB_Images:Tagger_Reaper;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
 
 ---  Events
+
 <APB_Images:Minigame_Survival_Cash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
 <APB_Images:Minigame_GunGame_Joker;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
 <APB_Images:Minigame_GunGame;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
