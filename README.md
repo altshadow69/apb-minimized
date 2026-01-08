@@ -1,13 +1,16 @@
 ## About
-The purpose of this config is to improve and modernize the look of APB’s UI. Since UE3 has been plague for this game, Just pray For UE5 to be a eazy modder friendly.
+The purpose of this config is to improve and modernize the look of APB’s UI,
+- and implementation of the in-game icons. an detailed guide can be found [Here!](https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md)
 
-> [!WARNING]
-> this config is still working progress so stay tune for more updates!
+Since UE3 has been plague for this game, Just pray For UE5 to be a modder friendly.
 
 ## Installation
-To install the configuration, just drag and drop the `APBGame` file from your downloads into `APB Reloaded\APBGame` file.
+- To install the configuration, just drag and drop the `APBGame` file from your downloads into `APB Reloaded\APBGame` file.
 
-after that, go to the `APB Reloaded\Binaries` and create a shortcut for `APB.EXE`, then go to the Properties in shortcut application into Target and add this next to the command line `-language=1031` then launch the game via shortcut application.
+- after that, go to the `APB Reloaded\Binaries` and create a shortcut for `APB.EXE`
+
+- then go to the Properties in shortcut application into Target
+- and add this next to the command line `-language=1031` then launch the game via shortcut application.
 
 ![Preview](https://i.imgur.com/ygONQe8.png)
 > [!IMPORTANT]
