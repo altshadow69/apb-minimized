@@ -1,6 +1,6 @@
 Icons images can easily be embedded within the localization file, here is a guide that i compiled.\
 Keep in mind that i created this guide through trial and error, with no data mining experience.\
-If can you able to crack the UE3 encryption, just let me know.\
+If you can able to crack the UE3 encryption, just let me know.
 
 ## Extension between HUDIcon / HUDTexture
 
@@ -67,7 +67,7 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 
 ```
 
- / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
 	|  —  —  —  Icons  —  —  —  |
 
@@ -152,7 +152,7 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 	Minigame_Survival_Bomb
 	Minigame_Survival_Hazmat
 
- / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
 	|  —  —  —  Textures  —  —  —  |
 
@@ -184,6 +184,6 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 		Icon_Achievement_Christmas_SantaSlayer
 		icon_achievement_gotnewstuff
 		
- / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
 ```
