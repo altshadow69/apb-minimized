@@ -1,4 +1,6 @@
-Icons images can easily be embedded within the localization file, and here is an guide I compiled.
+Icons images can easily be embedded within the localization file, here is a guide that i compiled.\
+Keep in mind that i created this guide through trial and error, with no data mining experience.\
+If can you able to crack the UE3 encryption, just let me know.\
 
 ## Extension between HUDIcon / HUDTexture
 
@@ -9,47 +11,65 @@ Icons images can easily be embedded within the localization file, and here is an
 
 ## HUDIcon
 
-if the HUDIcon text is in, **User Interface Element.** / _"APBUserInterface.INT"_ etc.\
-`<APB_Images:APBCash;HUDIcon=TRUE>`
+if the HUDIcon text is in, User Interface Element.  —  _"APBUserInterface.INT"_ etc.\
+```
+<APB_Images:APBCash;HUDIcon=TRUE>
+```
 
-if the HUDIcon text is in, **HUD Message Element.** / _"HUDMessages.INT"_\
-`<hudicon:APBCash>`
+if the HUDIcon text is in, HUD Message Element.  —  _"HUDMessages.INT"_\
+```
+<hudicon:APBCash>
+```
 
 ## HUDTexture
 
-if the HUDTexture text is in, **User Interface Element.**\
-`<APB_Images:Icon_Locker_Generic_Token;HUDTexture=TRUE>`
+if the HUDTexture text is in, User Interface Element.\
+```
+<APB_Images:Icon_Locker_Generic_Token;HUDTexture=TRUE>
+```
 
-if the HUDTexture text is in, **HUD Message Element.**\
-`<hudtexture:Icon_Locker_Generic_Token>`
+if the HUDTexture text is in, HUD Message Element.\
+```
+<hudtexture:Icon_Locker_Generic_Token>
+```
 
 ## Resizing HUDIcon
 
 if you want to resize the Icon Image\
 then use "XL=16 YL=16" and then add "Resize=TRUE" next to it\
-`<APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>`
+```
+<APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
+```
 
-it can also works in the **HUD Message Element.**\
-`<hudicon:APBCash;XL=16 YL=16 Resize=TRUE>`
+it can also works in the HUD Message Element.\
+```
+<hudicon:APBCash;XL=16 YL=16 Resize=TRUE>
+```
 
 ## Resizing HUDTexture
 
-Resize HUDTexture In **User Interface Element.**\
-`<APB_Images:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>`
+Resize HUDTexture In User Interface Element.\
+```
+<APB_Images:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>
+```
 
-Resize HUDTexture In The **HUD Message Element.** <br/>then add "HUDIcon=TRUE"\
-`<hudtexture:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>`
+Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
+```
+<hudtexture:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
+```
 
 > [!IMPORTANT]
 > Resize for the HUDTexture can also work But it will randomly bug out to a original size. to prevent it,\
 > Add `<Color:R=1 G=1 B=1>*then some text*` to stop resizing to original size. it will kinda works if you know what your doing
-\
 
-## Icons Listing WIP
+
+## WIP Listing
 
 ```
 
-	--- Icons
+ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+
+	|  —  —  —  Icons  —  —  —  |
 
 	APBCash
 	Icon_JokerTickets
@@ -92,7 +112,7 @@ Resize HUDTexture In The **HUD Message Element.** <br/>then add "HUDIcon=TRUE"\
 	OpenWorldDropOff_Small   >   Reskins
 	PDA   >   RTW / Shows Nothing
 
-	--- Taggers
+	—  —  —  Taggers
 
 	Spotter
 
@@ -112,7 +132,7 @@ Resize HUDTexture In The **HUD Message Element.** <br/>then add "HUDIcon=TRUE"\
 	Tagger_Sluttles
 	Tagger_Reaper
 
-	---  Events
+	—  —  —  Events
 
 	Minigame_Survival_Cash
 	Minigame_GunGame_Joker
@@ -132,7 +152,9 @@ Resize HUDTexture In The **HUD Message Element.** <br/>then add "HUDIcon=TRUE"\
 	Minigame_Survival_Bomb
 	Minigame_Survival_Hazmat
 
-	:::  Textures stuff
+ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+
+	|  —  —  —  Textures  —  —  —  |
 
 	Icon_Locker_Generic_Token
 	Icon_Locker_Generic_Symbols
@@ -146,19 +168,22 @@ Resize HUDTexture In The **HUD Message Element.** <br/>then add "HUDIcon=TRUE"\
 	Icon_Medal_Default
 
 	
-		Look up into "apbdb.com" "InventoryItemTypes.INT" or "Ellix Images Assets Rip" for references. thats my method.
+	[ Look up into "apbdb.com" "InventoryItemTypes.INT" or "Ellix Images Assets Rip" for references. thats my method. ]
 		
-		Clothing_*
-		Contact_*
-		Vehicle_*
-		Weapon_*
-		KillIcon_*
+	Clothing_*
+	Contact_*
+	Vehicle_*
+	
+	Weapon_*
+	KillIcon_*
 
-		Icon_Achievement_*   >   https://apbdb.com/achievements
+	Icon_Achievement_*   >   https://apbdb.com/achievements
 		
-			Icon_Achievement_Christmas_Frozen
-			Icon_Achievement_Christmas_GunRunner
-			Icon_Achievement_Christmas_SantaSlayer
-			icon_achievement_gotnewstuff
-			
+		Icon_Achievement_Christmas_Frozen
+		Icon_Achievement_Christmas_GunRunner
+		Icon_Achievement_Christmas_SantaSlayer
+		icon_achievement_gotnewstuff
+		
+ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+
 ```
