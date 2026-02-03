@@ -1,4 +1,4 @@
-Images Icons can be embed 
+Icons images can easily be embedded within the localization file, and here is an guide I compiled.
 
 ## Extension between HUDIcon / HUDTexture
 
@@ -144,13 +144,21 @@ Resize HUDTexture In The **HUD Message Element.** <br/>then add "HUDIcon=TRUE"\
 	Icon_Scoreboard_Generic_Clan
 	Icon_Scoreboard_Generic_Player
 	Icon_Medal_Default
+
 	
 		Look up into "apbdb.com" "InventoryItemTypes.INT" or "Ellix Images Assets Rip" for references. thats my method.
 		
+		Clothing_*
+		Contact_*
 		Vehicle_*
 		Weapon_*
 		KillIcon_*
 
-
-
+		Icon_Achievement_*   >   https://apbdb.com/achievements
+		
+			Icon_Achievement_Christmas_Frozen
+			Icon_Achievement_Christmas_GunRunner
+			Icon_Achievement_Christmas_SantaSlayer
+			icon_achievement_gotnewstuff
+			
 ```
