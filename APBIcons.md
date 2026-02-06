@@ -11,24 +11,24 @@ If you can able to crack the UE3 encryption, just let me know.
 
 ## HUDIcon
 
-if the HUDIcon text is in, User Interface Element.  —  _"APBUserInterface.INT"_ etc.\
+if the HUDIcon text is in, User Interface Element.   —   _"APBUserInterface.INT"_  etc.
 ```
 <APB_Images:APBCash;HUDIcon=TRUE>
 ```
 
-if the HUDIcon text is in, HUD Message Element.  —  _"HUDMessages.INT"_\
+if the HUDIcon text is in, HUD Message Element.   —   _"HUDMessages.INT"_
 ```
 <hudicon:APBCash>
 ```
 
 ## HUDTexture
 
-if the HUDTexture text is in, User Interface Element.\
+if the HUDTexture text is in, User Interface Element.
 ```
 <APB_Images:Icon_Locker_Generic_Token;HUDTexture=TRUE>
 ```
 
-if the HUDTexture text is in, HUD Message Element.\
+if the HUDTexture text is in, HUD Message Element.
 ```
 <hudtexture:Icon_Locker_Generic_Token>
 ```
@@ -36,24 +36,24 @@ if the HUDTexture text is in, HUD Message Element.\
 ## Resizing HUDIcon
 
 if you want to resize the Icon Image\
-then use "XL=16 YL=16" and then add "Resize=TRUE" next to it\
+then use "XL=16 YL=16" and then add "Resize=TRUE" next to it
 ```
 <APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
 ```
 
-it can also works in the HUD Message Element.\
+it can also works in the HUD Message Element.
 ```
 <hudicon:APBCash;XL=16 YL=16 Resize=TRUE>
 ```
 
 ## Resizing HUDTexture
 
-Resize HUDTexture In User Interface Element.\
+Resize HUDTexture In User Interface Element.
 ```
 <APB_Images:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>
 ```
 
-Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
+Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"
 ```
 <hudtexture:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
 ```
@@ -67,9 +67,9 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 
 ```
 
-/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
-	|  —  —  —  Icons  —  —  —  |
+	|  —  —  —  —  —  —  Icons  —  —  —  —  —  —  |
 
 	APBCash
 	Icon_JokerTickets
@@ -112,7 +112,8 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 	OpenWorldDropOff_Small   >   Reskins
 	PDA   >   RTW / Shows Nothing
 
-	—  —  —  Taggers
+
+	+  —  +  Taggers  +  —  +
 
 	Spotter
 
@@ -132,7 +133,8 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 	Tagger_Sluttles
 	Tagger_Reaper
 
-	—  —  —  Events
+
+	+  —  +  Events  +  —  +
 
 	Minigame_Survival_Cash
 	Minigame_GunGame_Joker
@@ -152,9 +154,9 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 	Minigame_Survival_Bomb
 	Minigame_Survival_Hazmat
 
- / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
-	|  —  —  —  Textures  —  —  —  |
+	|  —  —  —  —  —  —  Textures  —  —  —  —  —  —  |
 
 	Icon_Locker_Generic_Token
 	Icon_Locker_Generic_Symbols
@@ -167,6 +169,28 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 	Icon_Scoreboard_Generic_Player
 	Icon_Medal_Default
 
+	Ceremony_GenericUnlock
+	Ceremony_WinStreak
+	Ceremony_KillStreak
+	Ceremony_ArrestStreak
+	Ceremony_TutorialComplete
+	Ceremony_NewWeapons
+	Ceremony_NewVehiclesParts
+	Ceremony_NewThemesInstruments
+	Ceremony_NewUpgrades
+	Ceremony_NewSymbols
+	Ceremony_NewSong
+	Ceremony_NewPrimitives
+	Ceremony_NewSlot
+	Ceremony_NewEquipment
+	Ceremony_NewEmotes
+	Ceremony_NewClothing
+	Ceremony_MissionStarted   >   Not Working
+	Ceremony_LeagueWinner
+	Ceremony_BountyClaimed
+	Ceremony_Bounty
+	Ceremony_BadShot
+	Ceremony_Cash
 	
 	[ Look up into "apbdb.com" "InventoryItemTypes.INT" or "Ellix Images Assets Rip" for references. thats my method. ]
 		
@@ -184,6 +208,6 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"\
 		Icon_Achievement_Christmas_SantaSlayer
 		icon_achievement_gotnewstuff
 		
- / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
 ```
