@@ -2,22 +2,20 @@
 
   The purpose of this config is to improve and modernize the look of APB UI and implementation of the in-game icons. an detailed guide can be found [Here!](https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md)\
   Since UE3 has been plague for this game, Just pray For UE5 to be a modder friendly.
-  
----
 
 ## Installation
 
-** 1 - Configuration**
+ 1 - **Configuration**
 
    * Open the file named `APB Main File`
    * Within this file, locate the `APBGame` file and drag it into `C:\***\APB Reloaded\APBGame` directory.
 
-** 2 - Shortcut**
+ 2 - **Shortcut**
 
    * Navigate to the `APB Reloaded\Binaries` directory
    * and Create a shortcut for `APB.EXE`
 
-** 3 - Properties**
+ 3 - **Properties**
 
    * Right-click and select Properties in shortcuted application `APB - Shortcut.EXE`
    * In the `Target Command` apply the following to the command line ```-language=1031```
@@ -51,8 +49,8 @@
 ---
 
 ## Credits
-  [ Myamai       ] --- Hosting Localization Resources Site (https://myamai.neocities.org/apb/localization)
-  [ EllixOnline  ] --- Images Assets Rips ( As Reference )
-  [ lolmort      ] --- Promotion Images
+  - [ Myamai       ]  —  Hosting Localization Resources Site (https://myamai.neocities.org/apb/localization)
+  - [ EllixOnline  ]  —  Images Assets Rips ( As Reference )
+  - [ lolmort      ]  —  Promotion Images
 
 ---
