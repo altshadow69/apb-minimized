@@ -1,22 +1,38 @@
 ## About
-The purpose of this config is to improve and modernize the look of APB’s UI,
-- and implementation of the in-game icons. an detailed guide can be found [Here!](https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md)
 
-Since UE3 has been plague for this game, Just pray For UE5 to be a modder friendly.
+  The purpose of this config is to improve and modernize the look of APB’s UI, and implementation of the in-game icons. an detailed guide can be found [Here!](https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md)
+  Since UE3 has been plague for this game, Just pray For UE5 to be a modder friendly.
+  
+---
 
 ## Installation
-- To install the configuration, just drag and drop the `APBGame` file from your downloads into `APB Reloaded\APBGame` file.
 
-- after that, go to the `APB Reloaded\Binaries` and create a shortcut for `APB.EXE`
+ 1 **Install the Configuration:**
 
-- then go to the Properties in shortcut application into Target
-- and add this next to the command line `-language=1031` then launch the game via shortcut application.
+   * Open the file named `APB Main File`
+   * Within this file, locate the `APBGame` file and drag it into the `C:\***\APB Reloaded\APBGame` directory.
+
+ 2 **Shortcut**
+
+   * Navigate to the `APB Reloaded\Binaries` folder.
+   * Create a shortcut for `APB.EXE`
+
+ 3 **Properties**
+
+   * Right-click on the shortcut and select *Properties*
+   * In the `Target Command`, apply the following to the command line: `-language=1031`.
+
+---
 
 ![Preview](https://i.imgur.com/ygONQe8.png)
-> [!IMPORTANT]
-> If you already have other configs installed in your APB files, Only install the `Localization` folder and skip the `Config` folder inside of the `APBGame`.
 
-## Key Features
+> [!IMPORTANT]
+>  If you already have other configurations installed in your APB file, only install the `Localization` folder and skip the `Config` folder within the `APB Main File [ Drag & Drop ]` / `APBGame`.
+
+---
+
+## Main Key Features
+
 - ### Brand New Death-Cam With Proper Adjust!
 ![Preview](https://i.imgur.com/tStLna4.jpeg)
 - ### Minimized Hud Objective Markers
@@ -33,11 +49,12 @@ Since UE3 has been plague for this game, Just pray For UE5 to be a modder friend
 ![Preview](https://i.imgur.com/ZlwhSAQ.png)
 ![Preview](https://i.imgur.com/2taWkY7.png)
 ![Preview](https://i.imgur.com/xxtX48c.png)
-# And Much More.
+
 ---
 
 ## Credits
-- Myamai * For Hosting The Localization Resources Site (https://myamai.neocities.org/apb/localization)
-- EllixOnline * Assets Rips For The Ingame Icons ( As Reference )
-- lolmort * Promotion Images
+- [ Myamai       ] --- Hosting Localization Resources Site (https://myamai.neocities.org/apb/localization)
+- [ EllixOnline  ] --- Images Assets Rips ( As Reference )
+- [ lolmort      ] --- Promotion Images
 
+---

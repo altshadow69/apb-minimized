@@ -1,0 +1,182 @@
+
+[Medals]
+
+Medals_KillStreak_05_Title=Kill Streak · Copper<Color:A=0>
+Medals_KillStreak_05_Description=<Color:/>| Kill Five Opponents without dying.
+Medals_KillStreak_10_Title=Kill Streak · Jade<Color:A=0>
+Medals_KillStreak_10_Description=<Color:/>| Kill Ten Opponents without dying.
+Medals_KillStreak_15_Title=Kill Streak · Steel<Color:A=0>
+Medals_KillStreak_15_Description=<Color:/>| Kill Fifteen Opponents without dying.
+Medals_KillStreak_20_Title=Kill Streak · Bronze<Color:A=0>
+Medals_KillStreak_20_Description=<Color:/>| Kill Twenty Opponents without dying.
+Medals_KillStreak_25_Title=Kill Streak · Silver<Color:A=0>
+Medals_KillStreak_25_Description=<Color:/>| Kill Twenty-Five Opponents without dying.
+Medals_KillStreak_30_Title=Kill Streak · Gold<Color:A=0>
+Medals_KillStreak_30_Description=<Color:/>| Kill Thirty Opponents without dying.
+ 
+Medals_TimeLimit_Kills_2_Title=Blitzkrieg · Steel<Color:A=0>
+Medals_TimeLimit_Kills_2_Description=<Color:/>| Kill 2 Opponents within 5 Seconds.
+Medals_TimeLimit_Kills_3_Title=Blitzkrieg · Bronze<Color:A=0>
+Medals_TimeLimit_Kills_3_Description=<Color:/>| Kill 3 Opponents within 10 Seconds.
+Medals_TimeLimit_Kills_4_Title=Blitzkrieg · Silver<Color:A=0>
+Medals_TimeLimit_Kills_4_Description=<Color:/>| Kill 4 Opponents within 15 Seconds.
+Medals_TimeLimit_Kills_5_Title=Blitzkrieg · Gold<Color:A=0>
+Medals_TimeLimit_Kills_5_Description=<Color:/>| Kill 5 Opponents within 25 Seconds.
+ 
+Medals_Situational_SuperKill_Title=Elimination<Color:A=0>
+Medals_Situational_SuperKill_Description=<Color:/>| Kill the entire team at the same time.
+Medals_Situational_KillStreakKiller_Title=Kill Joy<Color:A=0>
+Medals_Situational_KillStreakKiller_Description=<Color:/>| Kill an Opponent who has 5 or More, Kills Streak.
+Medals_Situational_KillStreakArrest_Title=Judge Dredd<Color:A=0>
+Medals_Situational_KillStreakArrest_Description=<Color:/>| Arrest an Opponent who has 5 or More, Kills Streak.
+Medals_Situational_ArrestStreakKiller_Title=Chief Butcherd<Color:A=0>
+Medals_Situational_ArrestStreakKiller_Description=<Color:/>| Kill an Opponent who has 5 or More, Arrests Streak.
+
+Medals_BigWin_All_Title=Champion<Color:A=0>
+Medals_BigWin_All_Description=<Color:/>| Personally Win a mission by completing all task stages.
+Medals_BigWin_Defuse_Title=Bomb Technician<Color:A=0>
+Medals_BigWin_Defuse_Description=<Color:/>| Personally Defuse all the bombs on the mission.
+Medals_BigWin_Detonate_Title=Demolition Men<Color:A=0>
+Medals_BigWin_Detonate_Description=<Color:/>| Personally Detonate and plant all the bombs on the mission.
+Medals_Situational_AntiGraffitiKill_Title=Spray Coverd Denied<Color:A=0>
+Medals_Situational_AntiGraffitiKill_Description=<Color:/>| Kill an Opponent while they are covering up graffiti.
+Medals_Situational_GraffitiingKill_Title=C.C.K On Duty<Color:A=0>
+Medals_Situational_GraffitiingKill_Description=<Color:/>| Kill an Opponent while they are applying graffiti.
+ 
+Medals_Situational_DriverAssistKill_Title=Chauffeur<Color:A=0>
+Medals_Situational_DriverAssistKill_Description=<Color:/>| While driving, let a Teammate kill an Opponent from the passenger seat.
+Medals_Situational_VehicleKill_Title=Vehicular Slaughter<Color:A=0>
+Medals_Situational_VehicleKill_Description=<Color:/>| Kill an Opponent with a vehicle.
+ 
+Medals_Situational_ArsonKill_Title=Extinguisher<Color:A=0>
+Medals_Situational_ArsonKill_Description=<Color:/>| Kill an Opponent while they are committing arson.
+Medals_Situational_TaskItemKill_1_Title=Postmen Pouncer<Color:A=0>
+Medals_Situational_TaskItemKill_1_Description=<Color:/>| Kill an Opponent who is carrying a task item.
+Medals_Situational_GrenadeKill_Title=Nade it<Color:A=0>
+Medals_Situational_GrenadeKill_Description=<Color:/>| Kill an Opponent with a grenade type.
+Medals_Situational_PostDeathKill_Title=Grave's Gifter<Color:A=0>
+Medals_Situational_PostDeathKill_Description=<Color:/>| Kill an Opponent after your own death.
+Medals_Situational_VIPKill_Title=Assassination<Color:A=0>
+Medals_Situational_VIPKill_Description=<Color:/>| Kill The VIP Opponent.
+ 
+Medals_BigWin_Takeout_5_Title=Reaper · Jade<Color:A=0>
+Medals_BigWin_Takeout_5_Description=<Color:/>| Win with at least 5 Kills.
+Medals_BigWin_Takeout_7_Title=Reaper · Steel<Color:A=0>
+Medals_BigWin_Takeout_7_Description=<Color:/>| Win with at least 7 Kills.
+Medals_BigWin_Takeout_9_Title=Reaper · Bronze<Color:A=0>
+Medals_BigWin_Takeout_9_Description=<Color:/>| Win with at least 9 Kills.
+Medals_BigWin_Takeout_11_Title=Reaper · Silver<Color:A=0>
+Medals_BigWin_Takeout_11_Description=<Color:/>| Win with at least 11 Kills.
+Medals_BigWin_Takeout_15_Title=Reaper · Gold<Color:A=0>
+Medals_BigWin_Takeout_15_Description=<Color:/>| Win with at least 15 Kills.
+ 
+Medals_BigWin_Arrest_10_25_Title=Judicator · Jade<Color:A=0>
+Medals_BigWin_Arrest_10_25_Description=<Color:/>| Win with 25% of Arrests.
+Medals_BigWin_Arrest_10_33_Title=Judicator · Steel<Color:A=0>
+Medals_BigWin_Arrest_10_33_Description=<Color:/>| Win with 33% of Arrests.
+Medals_BigWin_Arrest_10_50_Title=Judicator · Bronze<Color:A=0>
+Medals_BigWin_Arrest_10_50_Description=<Color:/>| Win with 50% of Arrests.
+Medals_BigWin_Arrest_10_75_Title=Judicator · Silver<Color:A=0>
+Medals_BigWin_Arrest_10_75_Description=<Color:/>| Win with 75% of Arrests.
+Medals_BigWin_Arrest_10_100_Title=Judicator · Gold<Color:A=0>
+Medals_BigWin_Arrest_10_100_Description=<Color:/>| Win with 100% of Arrests.
+
+Medals_BigWin_Rescue_3_Title=Rescue Train · Jade<Color:A=0>
+Medals_BigWin_Rescue_3_Description=<Color:/>| Rescue 3 Teammates from Arrest.
+Medals_BigWin_Rescue_6_Title=Rescue Train · Steel<Color:A=0>
+Medals_BigWin_Rescue_6_Description=<Color:/>| Rescue 6 Teammates from Arrest.
+Medals_BigWin_Rescue_9_Title=Rescue Train · Bronze<Color:A=0>
+Medals_BigWin_Rescue_9_Description=<Color:/>| Rescue 9 Teammates from Arrest.
+Medals_BigWin_Rescue_12_Title=Rescue Train · Silver<Color:A=0>
+Medals_BigWin_Rescue_12_Description=<Color:/>| Rescue 12 Teammates from Arrest.
+Medals_BigWin_Rescue_15_Title=Rescue Train · Gold<Color:A=0>
+Medals_BigWin_Rescue_15_Description=<Color:/>| Rescue 15 Teammates from Arrest.
+ 
+Medals_Dishonour_ArrestedKill_1_Title=Police Battery · 1<Color:A=0>
+Medals_Dishonour_ArrestedKill_1_Description=<Color:/>| Killed a Arrested Opponents.
+Medals_Dishonour_ArrestedKill_2_Title=Police Battery · 2<Color:A=0>
+Medals_Dishonour_ArrestedKill_2_Description=<Color:/>| Killed a Arrested Opponents for the Second time.
+Medals_Dishonour_ArrestedKill_3_Title=Police Battery · 3<Color:A=0>
+Medals_Dishonour_ArrestedKill_3_Description=<Color:/>| Killed a Arrested Opponents for the Third time.
+Medals_Dishonour_ArrestedKill_4_Title=Police Battery · 4<Color:A=0>
+Medals_Dishonour_ArrestedKill_4_Description=<Color:/>| Killed a Arrested Opponents for the Fourth time.
+Medals_Dishonour_ArrestedKill_5_Title=Police Battery · 5<Color:A=0>
+Medals_Dishonour_ArrestedKill_5_Description=<Color:/>| Killed a Arrested Opponents for the Fifth time.
+Medals_Dishonour_ArrestedKill_6_Title=Police Battery · 6<Color:A=0>
+Medals_Dishonour_ArrestedKill_6_Description=<Color:/>| Killed a Arrested Opponents for the Sixth time.
+Medals_Dishonour_ArrestedKill_7_Title=Police Battery · 7<Color:A=0>
+Medals_Dishonour_ArrestedKill_7_Description=<Color:/>| Killed a Arrested Opponents for the Seventh time.
+Medals_Dishonour_ArrestedKill_8_Title=Police Battery · 8<Color:A=0>
+Medals_Dishonour_ArrestedKill_8_Description=<Color:/>| Killed a Arrested Opponents for the Eighth time.
+Medals_Dishonour_ArrestedKill_9_Title=Police Battery · 9<Color:A=0>
+Medals_Dishonour_ArrestedKill_9_Description=<Color:/>| Killed a Arrested Opponents for the Nineth time.
+Medals_Dishonour_ArrestedKill_10_Title=Police Battery · 10<Color:A=0>
+Medals_Dishonour_ArrestedKill_10_Description=<Color:/>| Killed a Arrested Opponents for the Tenth time.
+ 
+Medals_Dishonour_FriendlyKill_1_Title=Friendly Killed · 1<Color:A=0>
+Medals_Dishonour_FriendlyKill_1_Description=<Color:/>| Killed a Teammate.
+Medals_Dishonour_FriendlyKill_2_Title=Friendly Killed · 2<Color:A=0>
+Medals_Dishonour_FriendlyKill_2_Description=<Color:/>| Killed a Teammate for the Second time.
+Medals_Dishonour_FriendlyKill_3_Title=Friendly Killed · 3<Color:A=0>
+Medals_Dishonour_FriendlyKill_3_Description=<Color:/>| Killed a Teammate for the Third time.
+Medals_Dishonour_FriendlyKill_4_Title=Friendly Killed · 4<Color:A=0>
+Medals_Dishonour_FriendlyKill_4_Description=<Color:/>| Killed a Teammate for the Fourth time.
+Medals_Dishonour_FriendlyKill_5_Title=Friendly Killed · 5<Color:A=0>
+Medals_Dishonour_FriendlyKill_5_Description=<Color:/>| Killed a Teammate for the Fifth time.
+Medals_Dishonour_FriendlyKill_6_Title=Friendly Killed · 6<Color:A=0>
+Medals_Dishonour_FriendlyKill_6_Description=<Color:/>| Killed a Teammate for the Sixth time.
+Medals_Dishonour_FriendlyKill_7_Title=Friendly Killed · 7<Color:A=0>
+Medals_Dishonour_FriendlyKill_7_Description=<Color:/>| Killed a Teammate for the Seventh time.
+Medals_Dishonour_FriendlyKill_8_Title=Friendly Killed · 8<Color:A=0>
+Medals_Dishonour_FriendlyKill_8_Description=<Color:/>| Killed a Teammate for the Eighth time.
+Medals_Dishonour_FriendlyKill_9_Title=Friendly Killed · 9<Color:A=0>
+Medals_Dishonour_FriendlyKill_9_Description=<Color:/>| Killed a Teammate for the Nineth time.
+Medals_Dishonour_FriendlyKill_10_Title=Friendly Killed · 10<Color:A=0>
+Medals_Dishonour_FriendlyKill_10_Description=<Color:/>| Killed a Teammate for the Tenth time.
+ 
+Medals_Dishonour_FriendlyStun_1_Title=Friendly Stunned · 1<Color:A=0>
+Medals_Dishonour_FriendlyStun_1_Description=<Color:/>| Stunned a Teammate.
+Medals_Dishonour_FriendlyStun_2_Title=Friendly Stunned · 2<Color:A=0>
+Medals_Dishonour_FriendlyStun_2_Description=<Color:/>| Stunned a Teammate for the Second time.
+Medals_Dishonour_FriendlyStun_3_Title=Friendly Stunned · 3<Color:A=0>
+Medals_Dishonour_FriendlyStun_3_Description=<Color:/>| Stunned a Teammate for the Third time.
+Medals_Dishonour_FriendlyStun_4_Title=Friendly Stunned · 4<Color:A=0>
+Medals_Dishonour_FriendlyStun_4_Description=<Color:/>| Stunned a Teammate for the Fourth time.
+Medals_Dishonour_FriendlyStun_5_Title=Friendly Stunned · 5<Color:A=0>
+Medals_Dishonour_FriendlyStun_5_Description=<Color:/>| Stunned a Teammate for the Fifth time.
+ 
+Medals_Dishonour_SelfKill_02_Title=Suicide · 2<Color:A=0>
+Medals_Dishonour_SelfKill_02_Description=<Color:/>| Inflict Death on yourself for the Second time.
+Medals_Dishonour_SelfKill_03_Title=Suicide · 3<Color:A=0>
+Medals_Dishonour_SelfKill_03_Description=<Color:/>| Inflict Death on yourself for the Third time.
+Medals_Dishonour_SelfKill_04_Title=Suicide · 4<Color:A=0>
+Medals_Dishonour_SelfKill_04_Description=<Color:/>| Inflict Death on yourself for the Fourth time.
+Medals_Dishonour_SelfKill_05_Title=Suicide · 5<Color:A=0>
+Medals_Dishonour_SelfKill_05_Description=<Color:/>| Inflict Death on yourself for the Fifth time.
+Medals_Dishonour_SelfKill_06_Title=Suicide · 6<Color:A=0>
+Medals_Dishonour_SelfKill_06_Description=<Color:/>| Inflict Death on yourself for the Sixth time.
+Medals_Dishonour_SelfKill_07_Title=Suicide · 7<Color:A=0>
+Medals_Dishonour_SelfKill_07_Description=<Color:/>| Inflict Death on yourself for the Seventh time.
+Medals_Dishonour_SelfKill_08_Title=Suicide · 8<Color:A=0>
+Medals_Dishonour_SelfKill_08_Description=<Color:/>| Inflict Death on yourself for the Eighth time.
+Medals_Dishonour_SelfKill_09_Title=Suicide · 9<Color:A=0>
+Medals_Dishonour_SelfKill_09_Description=<Color:/>| Inflict Death on yourself for the Nineth time.
+Medals_Dishonour_SelfKill_10_Title=Suicide · 10<Color:A=0>
+Medals_Dishonour_SelfKill_10_Description=<Color:/>| Inflict Death on yourself for the Tenth time.
+Medals_Dishonour_SelfKill_15_Title=Suicide · 15<Color:A=0>
+Medals_Dishonour_SelfKill_15_Description=<Color:/>| Inflict Death on yourself for the Fifteenth time.
+Medals_Dishonour_SelfKill_20_Title=Suicide · 20<Color:A=0>
+Medals_Dishonour_SelfKill_20_Description=<Color:/>| Inflict Death on yourself for the Twentieth time.
+Medals_Dishonour_SelfKill_25_Title=Suicide · 25<Color:A=0>
+Medals_Dishonour_SelfKill_25_Description=<Color:/>| Inflict Death on yourself for the Twenty-fifth time.
+Medals_Dishonour_SelfKill_30_Title=Suicide · 30<Color:A=0>
+Medals_Dishonour_SelfKill_30_Description=<Color:/>| Inflict Death on yourself for the Thirtieth time.
+ 
+Medals_Dishonour_AFK_Title=Sleepy Head<Color:A=0>
+Medals_Dishonour_AFK_Description=<Color:/>| Awarded for having AFK status for more than 30 seconds during a mission.
+
+;;;   Unused
+Medals_KillBehind_Title=Backstabber
+Medals_KillBehind_Description=<Color:/>| Kill an Opponent from behind with a melee weapon.
+Medals_Situational_MeleeKill_Title=Battery
+Medals_Situational_MeleeKill_Description=<Color:/>| Kill an Opponent with a melee weapon.
