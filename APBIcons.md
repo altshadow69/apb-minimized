@@ -1,72 +1,78 @@
-Icons images can easily be embedded within the localization file, here is a guide that i compiled.\
-Keep in mind that i created this guide through trial and error, with no data mining experience.\
-If you can able to crack the UE3 encryption, just let me know.
+ 
+## Guide
+
+ Icons images can easily be embedded within the localization file, here is a guide that i compiled.\
+ Keep in mind that i created this guide through trial and error,\
+
+ Freely contact me for suggestions or information.
 
 ## Extension between HUDIcon / HUDTexture
 
-"HUDIcon" Usage for "Generic_Icons_Master" Texture Sheet can be seems [Here!](https://i.imgur.com/E506K3r.png) and others stuffs as Labeled as Icon could work
+ "HUDIcon" Usage for "Generic_Icons_Master" Texture Sheet can be seems [Here!](https://i.imgur.com/E506K3r.png) and others stuffs as Labeled as Icon could work
 
-"HUDTexture" Usage for the In Game Hud Textures Images, For Example\
-`Icon_Locker_Generic_Token` `Vehicle_PatriotVegasG20` `Weapon_Pistol_FBW` / `KillIcon_Pistol_FBW`
+ "HUDTexture" Usage for the In Game Hud Textures Images, For Example\
+ `Icon_Locker_Generic_Token` `Vehicle_PatriotVegasG20` `Weapon_Pistol_FBW` / `KillIcon_Pistol_FBW`
 
 ## HUDIcon
 
-if the HUDIcon text is in, User Interface Element.   —   _"APBUserInterface.INT"_  etc.
-```
-<APB_Images:APBCash;HUDIcon=TRUE>
-```
+ if the HUDIcon text is in, User Interface Element. — _"APBUserInterface.INT"_  etc.
+ ```
+ <APB_Images:APBCash;HUDIcon=TRUE>
+ ```
 
-if the HUDIcon text is in, HUD Message Element.   —   _"HUDMessages.INT"_
-```
-<hudicon:APBCash>
-```
+ if the HUDIcon text is in, HUD Message Element. — _"HUDMessages.INT"_
+ ```
+ <hudicon:APBCash>
+ ```
 
 ## HUDTexture
 
-if the HUDTexture text is in, User Interface Element.
-```
-<APB_Images:Icon_Locker_Generic_Token;HUDTexture=TRUE>
-```
+ if the HUDTexture text is in, User Interface Element.
+ ```
+ <APB_Images:Icon_Locker_Generic_Token;HUDTexture=TRUE>
+ ```
 
-if the HUDTexture text is in, HUD Message Element.
-```
-<hudtexture:Icon_Locker_Generic_Token>
-```
+ if the HUDTexture text is in, HUD Message Element.
+ ```
+ <hudtexture:Icon_Locker_Generic_Token>
+ ```
 
 ## Resizing HUDIcon
 
-if you want to resize the Icon Image\
-then use "XL=16 YL=16" and then add "Resize=TRUE" next to it
-```
-<APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
-```
+ if you want to resize the Icon Image\
+ then use "XL=16 YL=16" and then add "Resize=TRUE" next to it
+ ```
+ <APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
+ ```
 
-it can also works in the HUD Message Element.
-```
-<hudicon:APBCash;XL=16 YL=16 Resize=TRUE>
-```
+ it can also works in the HUD Message Element.
+ ```
+ <hudicon:APBCash;XL=16 YL=16 Resize=TRUE>
+ ```
 
 ## Resizing HUDTexture
 
-Resize HUDTexture In User Interface Element.
-```
-<APB_Images:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>
-```
+ Resize HUDTexture In User Interface Element.
+ ```
+ <APB_Images:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>
+ ```
 
-Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"
-```
-<hudtexture:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
-```
+ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"
+ ```
+ <hudtexture:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
+ ```
 
 > [!IMPORTANT]
-> Resize for the HUDTexture can also work But it will randomly bug out to a original size. to prevent it,\
-> Add `<Color:R=1 G=1 B=1>*then some text*` to stop resizing to original size. it will kinda works if you know what your doing
+> Resizing the HUDTexture might work, but it will specifically bug out and revert to its original size.\
+> Mixing hudicon with hudtexture will not prevent the bug related to the original size
 
+---
 
-## WIP Listing
+## Listing [ Icon / Texture ]
+
+ The naming must be specific. this listing is working progress
 
 ```
-
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
 	|  —  —  —  —  —  —  Icons  —  —  —  —  —  —  |
@@ -168,6 +174,11 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"
 	Icon_Scoreboard_Generic_Clan
 	Icon_Scoreboard_Generic_Player
 	Icon_Medal_Default
+	
+	Icon_Title_Question
+	Icon_Title_Symbol_Save
+	Icon_Title_Rename
+	Icon_Title_Destroy
 
 	Ceremony_GenericUnlock
 	Ceremony_WinStreak
@@ -192,16 +203,20 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"
 	Ceremony_BadShot
 	Ceremony_Cash
 	
-	[ Look up into "apbdb.com" "InventoryItemTypes.INT" or "Ellix Images Assets Rip" for references. thats my method. ]
-		
-	Clothing_*
-	Contact_*
-	Vehicle_*
+	CharacterCreation
 	
-	Weapon_*
-	KillIcon_*
+	+  —  +  Category  +  —  +
+	
+	[  Use "https://apbdb.com" / "InventoryItemTypes.INT" / "Ellix Assets Rip" for references. thats my method.  ]
 
-	Icon_Achievement_*   >   https://apbdb.com/achievements
+	Weapon_*   >   Example  `Weapon_Pistol_FBW`
+	KillIcon_*   >   Example  `KillIcon_Pistol_FBW`
+
+	Clothing_*   >   Example  `Clothing_M_Hairwear_Hat_TopHatTall`
+	Contact_*   >   Example  `Contact_YoDawg`
+	Vehicle_*   >   Example  `Vehicle_PatriotVegasG20`
+
+	Icon_Achievement_*   >   Example  `Icon_Achievement_KillStats_FromBehind` / Find More Here  'https://apbdb.com/achievements'
 		
 		Icon_Achievement_Christmas_Frozen
 		Icon_Achievement_Christmas_GunRunner
@@ -209,5 +224,4 @@ Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"
 		icon_achievement_gotnewstuff
 		
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
-
 ```
