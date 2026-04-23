@@ -12,6 +12,8 @@
 
  "HUDTexture" Usage for the In Game Hud Textures Images, For Example\
  `Icon_Locker_Generic_Token` `Vehicle_PatriotVegasG20` `Weapon_Pistol_FBW` / `KillIcon_Pistol_FBW`
+ 
+---
 
 ## HUDIcon
 
@@ -36,6 +38,8 @@
  ```
  <hudtexture:Icon_Locker_Generic_Token>
  ```
+ 
+---
 
 ## Resizing HUDIcon
 
@@ -73,13 +77,25 @@
  The naming must be specific. this listing is working progress
 
 ```
-/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
 	|  —  —  —  —  —  —  Icons  —  —  —  —  —  —  |
+	
+	None   >   Shows Nothing
 
 	APBCash
 	Icon_JokerTickets
 	Rating
+	
+	Status_None
+	Status_Ready
+	Status_AFK
+	Status_DND
+	Status_Arrested
+	Status_Stunned
+	Status_Dead
+	Status_Driving
+	Status_Crown
 
 	Contact
 	Task_Checkpoint
@@ -98,26 +114,29 @@
 	PlayerVehicleWithTaskItem   >   Reskin
 	VehicleSpawn
 	VehicleRepair
-	Elective_Corpse
+	Elective_Corpse   >   Reskin
 	Waypoint_Leader
 	MobileRadarTower
 	AmmoVending
-	InteractionPoint_SymbolEditor
-	InteractionPoint_Wardrobe
-	InteractionPoint_Garage
-	MarketplaceZone
 
 	Faction_Criminal
 	Faction_Enforcer
 
 	GroupPlayer
 	GroupLeader   >   Reskins
-	OppositionPlayer   >   RTW / Shows Nothing
+	OppositionPlayer   >   Reskins / RTW / Shows Nothing
 
 	StashDropOff   >   Reskins
 	OpenWorldDropOff_Small   >   Reskins
 	PDA   >   RTW / Shows Nothing
 
+	MarketplaceZone
+
+	InteractionPoint_MusicStudio   >   Not Working
+	InteractionPoint_SymbolEditor
+	InteractionPoint_Wardrobe
+	InteractionPoint_Garage
+	InteractionPoint_Vault
 
 	+  —  +  Taggers  +  —  +
 
@@ -141,6 +160,24 @@
 
 
 	+  —  +  Events  +  —  +
+	
+	Minigame_SnowballFight
+	Minigame_Mugging_Item_Egg
+	Minigame_GoldenWeapon_Easter_Protagonist
+	
+	Minigame_Mugging_Protagonist_Easter
+	Minigame_Mugging_Carrier_Easter
+	Minigame_Mugging_Item
+	
+	Minigame_Mugging_Protagonist
+	Minigame_Mugging_Carrier
+	Minigame_Mugging_NPC
+	
+	Minigame_GoldenWeapon_Explosive
+	
+	Minigame_Infection_Survivor
+	Minigame_Infection_Pumpkin
+	Minigame_Infection_Headless
 
 	Minigame_Survival_Cash
 	Minigame_GunGame_Joker
@@ -160,7 +197,7 @@
 	Minigame_Survival_Bomb
 	Minigame_Survival_Hazmat
 
-/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
 	|  —  —  —  —  —  —  Textures  —  —  —  —  —  —  |
 
@@ -216,12 +253,12 @@
 	Contact_*   >   Example  `Contact_YoDawg`
 	Vehicle_*   >   Example  `Vehicle_PatriotVegasG20`
 
-	Icon_Achievement_*   >   Example  `Icon_Achievement_KillStats_FromBehind` / Find More Here  'https://apbdb.com/achievements'
+	Icon_Achievement_*   >   Example  `Icon_Achievement_KillStats_FromBehind` / 'https://apbdb.com/achievements'
 		
 		Icon_Achievement_Christmas_Frozen
 		Icon_Achievement_Christmas_GunRunner
 		Icon_Achievement_Christmas_SantaSlayer
 		icon_achievement_gotnewstuff
 		
-/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 ```
