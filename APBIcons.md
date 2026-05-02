@@ -1,82 +1,55 @@
  
 ## Guide
 
-Icon images can be easily embedded within the localization file this guide shows you how to do it step by step.
+Icon images can be easily embedded within the localization file this guide shows you how to do it step by step.  
 
-> Keep in mind that i create it this guide through trial and error. 
+> [!NOTE]
+> The HUDIcon and HUDTexture, can not be overlaped or underlaped it will treat as a text.
 
+Keep in mind that i create it this guide through trial and error.  
 Freely contact me for suggestions or information.
 
 ## Extension between HUDIcon / HUDTexture
 
-`HUDIcon` Usage for "Generic_Icons_Master" Texture Sheet can be seems [Here!](https://i.imgur.com/E506K3r.png) and others stuffs as labeled as icon *could* work
+`HUDIcon` Usage for "Generic_Icons_Master" Texture Sheet Only! can be seems [Here!](https://i.imgur.com/E506K3r.png)
 
 `HUDTexture` Usage for the In Game Hud Textures Images, for examples `KillIcon_Pistol_FBW` `Weapon_Pistol_FBW`
+
 <details>
-<summary>—< ‎ ‎ ‎ ‎   ‎ ‎ ‎ ‎  More Examples can be seem here! ‎ ‎ ‎ ‎  ‎ ‎ ‎  ‎ ‎ >—</summary>
+<summary> $${\color{blue}[‎ ‎ ‎ examples‎of‎HUDTextures‎can‎be‎seem‎here.‎Click‎Here!‎ ‎ ‎ ]</Click>}$$ :dizzy:</summary>
 	
 ```
   Icon_Locker_Generic_Token
-  Weapon_*   >   Example  `Weapon_Pistol_FBW`
-  KillIcon_*   >   Example  `KillIcon_Pistol_FBW`
-  Clothing_*   >   Example  `Clothing_M_Hairwear_Hat_TopHatTall`
-  Contact_*   >   Example  `Contact_YoDawg`
-  Vehicle_*   >   Example  `Vehicle_PatriotVegasG20`
+  Weapon_Pistol_FBW
+  KillIcon_Pistol_FBW
+  Clothing_M_Hairwear_Hat_TopHatTall
+  Contact_YoDawg
+  Vehicle_PatriotVegasG20
 ```	
 </details>
 
----
+## Intimidation
 
-### HUDIcon
+| Command | Description |
+| :--- | :--- |
+| *HUDIcon* | |
+| ```<APB_Images:APBCash;HUDIcon=TRUE>``` | if the HUDIcon text is in, User Interface Element. — _"APBUserInterface.INT"_  etc. |
+| ```<hudicon:APBCash>``` | if the HUDIcon text is in, HUD Message Element. — _"HUDMessages.INT"_ |
+| *HUDTexture* | |
+| ```<APB_Images:Ceremony_Cash;HUDTexture=TRUE>``` | if the HUDTexture text is in, User Interface Element. — _"APBUserInterface.INT"_  etc. |
+| ```<hudtexture:Ceremony_Cash>``` | if the HUDTexture text is in, HUD Message Element. — _"HUDMessages.INT"_ |
 
-if the HUDIcon text is in, User Interface Element. — _"APBUserInterface.INT"_  etc.
-```
-<APB_Images:APBCash;HUDIcon=TRUE>
-```
+## Resizing
 
-if the HUDIcon text is in, HUD Message Element. — _"HUDMessages.INT"_
-```
-<hudicon:APBCash>
-```
-
-### HUDTexture
-
-if the HUDTexture text is in, User Interface Element.
-```
-<APB_Images:Icon_Locker_Generic_Token;HUDTexture=TRUE>
-```
-
-if the HUDTexture text is in, HUD Message Element.
-```
-<hudtexture:Icon_Locker_Generic_Token>
-```
- 
----
-
-### Resizing HUDIcon
-
-if you want to resize the Icon Image  
-then use "XL=16 YL=16" and then add "Resize=TRUE" next to it
-```
-<APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
-```
-
-it can also works in the HUD Message Element.
-```
-<hudicon:APBCash;XL=16 YL=16 Resize=TRUE>
-```
-
-### Resizing HUDTexture
-
-Resize HUDTexture In User Interface Element.
-```
-<APB_Images:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>
-```
-
-Resize HUDTexture In The HUD Message Element. then add "HUDIcon=TRUE"
-```
-<hudtexture:Icon_Locker_Generic_Token;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>
-```
+if you want to resize the Icon Image then use "XL=16 YL=16" and then add "Resize=TRUE" next to it
+| Command | Description |
+| :--- | :--- |
+| *HUDIcon* | |
+| ```<APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>``` | Resizeing HUDIcon text in, User Interface Element.|
+| ```<hudicon:APBCash;XL=16 YL=16 Resize=TRUE>``` | Resizeing HUDIcon text in, HUD Message Element.|  
+| *HUDTexture* | |
+| ```<APB_Images:Ceremony_Cash;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>``` | Resizeing HUDTexture In User Interface Element. |
+| ```<hudtexture:Ceremony_Cash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>``` | Make sure to add "HUDIcon=TRUE" to enable it |
 
 > [!IMPORTANT]
 > Resizing the HUDTexture might work, but it will specifically bug out and revert to its original size.  
@@ -91,7 +64,7 @@ The naming must be specific. this listing is working progress
 ```
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
-  |  —  —  —  —  —  —  Icons  —  —  —  —  —  —  |
+ •  —  —  —  —  —  —  —  —  —  Icons
 	
   None   >   Shows Nothing
 
@@ -136,7 +109,7 @@ The naming must be specific. this listing is working progress
 
   GroupPlayer
   GroupLeader   >   Reskins
-  OppositionPlayer   >   Reskins / RTW / Shows Nothing
+  OppositionPlayer   >   RTW / Shows Nothing
 
   StashDropOff   >   Reskins
   OpenWorldDropOff_Small   >   Reskins
@@ -150,7 +123,7 @@ The naming must be specific. this listing is working progress
   InteractionPoint_Garage
   InteractionPoint_Vault
 
-  —  —  —  +  Taggers  +  —  —  —
+ +  —  —  —  Taggers
 
   Spotter
 
@@ -171,7 +144,7 @@ The naming must be specific. this listing is working progress
   Tagger_Reaper
 
 
-  —  —  —  +  Events  +  —  —  —
+ +  —  —  —  Events
 	
   Minigame_SnowballFight
   Minigame_Mugging_Item_Egg
@@ -211,7 +184,7 @@ The naming must be specific. this listing is working progress
 
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
-  |  —  —  —  —  —  —  Textures  —  —  —  —  —  —  |
+ •  —  —  —  —  —  —  —  —  —  Textures
 
   Icon_Locker_Generic_Token
   Icon_Locker_Generic_Symbols
@@ -253,18 +226,20 @@ The naming must be specific. this listing is working progress
   Ceremony_Cash
 	
   CharacterCreation
+  
+  Contact_Up
 	
-  —  —  —  +  Category  +  —  —  —
+ +  —  —  —  Category
 	
-  [Note]   >   Use "https://apbdb.com" / "InventoryItemTypes.INT" / "Ellix Assets Rip" for references. thats my method.
+  * Note: Use "https://apbdb.com" / "InventoryItemTypes.INT" / "Ellix Assets Rip" for references. thats my method.
 
-  Weapon_*   >   Example  `Weapon_Pistol_FBW`
-  KillIcon_*   >   Example  `KillIcon_Pistol_FBW`
-  Clothing_*   >   Example  `Clothing_M_Hairwear_Hat_TopHatTall`
-  Contact_*   >   Example  `Contact_YoDawg`
-  Vehicle_*   >   Example  `Vehicle_PatriotVegasG20`
+  Weapon_*             >   Example  ` Weapon_Pistol_FBW `
+  KillIcon_*           >   Example  ` KillIcon_Pistol_FBW `
+  Clothing_*           >   Example  ` Clothing_M_Hairwear_Hat_TopHatTall `
+  Contact_*            >   Example  ` Contact_YoDawg `
+  Vehicle_*            >   Example  ` Vehicle_PatriotVegasG20 `
 
-  Icon_Achievement_*   >   Example  `Icon_Achievement_KillStats_FromBehind` / 'https://apbdb.com/achievements'
+  Icon_Achievement_*   >   Example  ` Icon_Achievement_KillStats_FromBehind ` / [https://apbdb.com/achievements]
 		
   Icon_Achievement_Christmas_Frozen
   Icon_Achievement_Christmas_GunRunner
