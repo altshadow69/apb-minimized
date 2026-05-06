@@ -76,13 +76,24 @@ The naming must be specific. this listing is working progress
   Status_Ready
   Status_AFK
   Status_DND
+  Status_Busy   >   Not Working
   Status_Arrested
   Status_Stunned
   Status_Dead
   Status_Driving
   Status_Crown
+  Status_TaskParticipant   >   Shows Nothing ( Note: Probably its the weird thumbs up icon in the texture sheet, but never used. )
+  Status_NonTaskParticipant
+  Status_Disconnected   >   Not Working
+  Status_OutOfDistrict   >   Not Working
 
-  Contact
+  VOIP_Active_High
+  VOIP_Active_Medium
+  VOIP_Active_Low
+  VOIP_InChannel
+  VOIP_Muted
+  VOIP_NotInChannel
+
   Task_Checkpoint
   Task_Checkpoint_Occ
   Task_Target
@@ -93,6 +104,9 @@ The naming must be specific. this listing is working progress
   Task_Item_Vehicle   >   Reskins
 
   AmmoVending
+  Contact
+  Waypoint
+  Waypoint_Leader
   DisplayPoint
   SpawnZone
   Mailbox
@@ -100,28 +114,27 @@ The naming must be specific. this listing is working progress
   PlayerVehicleWithTaskItem   >   Reskin
   VehicleSpawn
   VehicleRepair
-  Elective_Corpse   >   Reskin
-  Waypoint_Leader
   MobileRadarTower
+  Elective_Corpse   >   Reskin
 
   Faction_Criminal
   Faction_Enforcer
 
   GroupPlayer
-  GroupLeader   >   Reskins
+  GroupLeader   >   White Covered
   OppositionPlayer   >   RTW / Shows Nothing
 
-  StashDropOff   >   Reskins
-  OpenWorldDropOff_Small   >   Reskins
-  PDA   >   RTW / Shows Nothing
+  StashDropOff   >   White Covered
+  OpenWorldDropOff_Small   >   White Covered
 
   MarketplaceZone
-
   InteractionPoint_MusicStudio   >   Not Working
   InteractionPoint_SymbolEditor
   InteractionPoint_Wardrobe
   InteractionPoint_Garage
   InteractionPoint_Vault
+  
+  PDA   >   RTW / Shows Nothing
 
  +  —  —  —  Taggers
 
@@ -145,29 +158,28 @@ The naming must be specific. this listing is working progress
 
 
  +  —  —  —  Events
-	
-  Minigame_SnowballFight
+
+  Minigame_GunGame
+  Minigame_GunGame_Joker
+
   Minigame_Mugging_Item_Egg
-  Minigame_GoldenWeapon_Easter_Protagonist
-	
   Minigame_Mugging_Protagonist_Easter
   Minigame_Mugging_Carrier_Easter
+  
   Minigame_Mugging_Item
-	
   Minigame_Mugging_Protagonist
   Minigame_Mugging_Carrier
   Minigame_Mugging_NPC
-	
+
+  Minigame_GoldenWeapon_Easter_Protagonist
   Minigame_GoldenWeapon_Explosive
 	
   Minigame_Infection_Survivor
   Minigame_Infection_Pumpkin
   Minigame_Infection_Headless
-
-  Minigame_Survival_Cash
-  Minigame_GunGame_Joker
-  Minigame_GunGame
+  
   Minigame_SlayBells_FrozenBlock
+  Minigame_SnowballFight
 	
   Minigame_Epidemic_Warehouse
   Minigame_Epidemic_Hazmat
@@ -177,6 +189,7 @@ The naming must be specific. this listing is working progress
   Minigame_Epidemic_Barrel
   Minigame_Epidemic_BarrelStack
 
+  Minigame_Survival_Cash
   Minigame_Survival_WeaponSecondaryUnlock
   Minigame_Survival_WeaponLegendary
   Minigame_Survival_Bomb
@@ -201,6 +214,8 @@ The naming must be specific. this listing is working progress
   Icon_Title_Symbol_Save
   Icon_Title_Rename
   Icon_Title_Destroy
+  
+  CharacterCreation
 
   Ceremony_GenericUnlock
   Ceremony_WinStreak
@@ -224,8 +239,6 @@ The naming must be specific. this listing is working progress
   Ceremony_Bounty
   Ceremony_BadShot
   Ceremony_Cash
-	
-  CharacterCreation
   
   Contact_Up
 	
