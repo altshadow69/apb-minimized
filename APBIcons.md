@@ -247,7 +247,7 @@ The naming must be specific. this listing is working progress
   * Note: Use "https://apbdb.com" / "InventoryItemTypes.INT" / "Ellix Assets Rip" for references. thats my method.
 
   Weapon_*             >   Example  ` Weapon_Pistol_FBW `
-  KillIcon_*           >   Example  ` KillIcon_Pistol_FBW `
+  KillIcon_*           >   Example  ` KillIcon_Pistol_FBW ` `KillIcon_AssaultRifle_NTEC-5_Stock`
   Clothing_*           >   Example  ` Clothing_M_Hairwear_Hat_TopHatTall `
   Contact_*            >   Example  ` Contact_YoDawg `
   Vehicle_*            >   Example  ` Vehicle_PatriotVegasG20 `
