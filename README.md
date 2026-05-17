@@ -40,6 +40,8 @@ Since the game still runs on Unreal Engine 3 for two decades now :goberserk: let
 ![Preview](https://i.imgur.com/XbiuY5Z.png)
 - ### Loadout Weapons Categories 
 ![Preview](https://i.imgur.com/wfFSgiV.png)
+- ### New Main Menu 
+![Preview](https://i.imgur.com/6ehqHEu.png)
 - ### Simplified Resupply Text With Icon
 ![Preview](https://i.imgur.com/wiakqkZ.png)
 - ### Improved Vehicle Hint Status
