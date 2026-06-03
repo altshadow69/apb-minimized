@@ -1,1 +1,0 @@
-Please set your 'OverlaySceneAlphaModulation' to 1 in "DefaultUI.ini", so the texture wouldnt be transparent.

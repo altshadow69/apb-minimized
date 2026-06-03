@@ -10,23 +10,27 @@ Since the game still runs on Unreal Engine 3 for two decades now :goberserk: let
 > Detailed guide implement of ingame icon image can be found here [APBIcons](https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md)
 
 ## Installation
-  
+
+> [!IMPORTANT]
+> Always remember to launch the game via the shortcut application, instead of the main launcher.
+> The main launcher will automatically repair and reset your configuration files.
+
+> [!WARNING]
+> if your're currently using other configurations installed in your APB directory.  
+> just only install the `[1] Main Localization Folder` folder and skip the `[2] Transparent Menu` folder
+
 1. Open the `APB Main File` and navigate to inside the `[1] Main Localization Folder` Folder
 2. Select `APBGame` Folder, drag and drop it into `C:\***\APB Reloaded\APBGame` directory.
 3. Navigate to `C:\***\APB Reloaded\Binaries` directory. and create a shortcut for `APB.EXE`
 4. After creation of shortcut application. Right-click and select `Properties` from the mouse menu.
-5. in Properties. Navigate to the Shortcut Tab, and Locate `Target Command` and apply the following to the command line  
-```"C:\***\APB Reloaded\Binaries\APB.exe" -language=1031```
+5. in Properties. Navigate to the Shortcut Tab, and Locate `Target Command` apply the following command line  
+```-language=1031``` example > ```"C:\***\APB Reloaded\Binaries\APB.exe" -language=1031```
 
 <details>
 <summary> $${\color{blue}[   Click ‎here ‎for ‎an ‎example ‎image   ]</Click>}$$ :dizzy:</summary>
 
 ![Example](https://i.imgur.com/flHtz4f.png)
 </details>
-
-> [!WARNING]
-> if your're currently using other configurations installed in your APB directory.  
-> just only install the `[1] Main Localization Folder` folder and skip the `[2] Transparent Menu` folder
 
 ## Main Key Features
 - ### Brand New Death-Cam With Proper Adjust‎
@@ -53,8 +57,10 @@ Since the game still runs on Unreal Engine 3 for two decades now :goberserk: let
 
 ## Credits
 ```
- +  Myamai       — Hosting Localization Resources Site [ https://myamai.neocities.org/apb/localization ]
+ A-Z
  +  AltShadow    — Icon Guide [ https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md ]
  +  EllixOnline  — Images Assets Rips, As reference.
  +  lolmort      — Promotion Images
+ +  Myamai       — Hosting Localization Resources Site [ https://myamai.neocities.org/apb/localization ]
+ +  writch       — Hosting Config Tool Site [ https://apb.gallery/config ]
 ```

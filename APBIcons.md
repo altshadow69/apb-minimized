@@ -4,16 +4,18 @@
 Icon images can be easily embedded within the localization file this guide shows you how to do it step by step.  
 
 > [!NOTE]
-> The HUDIcon and HUDTexture, can not be overlaped or underlaped it will treat as a text.
+> Text images, can not be overlaped or underlaped it will treat as a text.
 
 Keep in mind that i create it this guide through trial and error.  
 Freely contact me for suggestions or information.
 
-## Extension between HUDIcon / HUDTexture
+## Extension APB_Images / Images
 
-`HUDIcon` Usage for "Generic_Icons_Master" Texture Sheet Only! can be seems [Here!](https://i.imgur.com/E506K3r.png)
+ `APB_Images:` Uses for a specific naming tag, such as `Icon_JokerTickets` for the HUDIcon. `Weapon_Pistol_FBW` for the HUDTexture.
 
-`HUDTexture` Usage for the In Game Hud Textures Images, for examples `KillIcon_Pistol_FBW` `Weapon_Pistol_FBW`
+ with in the usage of APB_Images `HUDIcon` is for "Generic_Icons_Master" Texture sheet only! can be seems [Here!](https://i.imgur.com/E506K3r.png)  
+
+ and with in the usage of APB_Images `HUDTexture` specific name tag for the APB_Images Textures Images, for examples `Weapon_Pistol_FBW` `KillIcon_Pistol_FBW`  
 
 <details>
 <summary> $${\color{blue}[‎ ‎ ‎ examples‎of‎HUDTextures‎can‎be‎seem‎here.‎Click‎Here!‎ ‎ ‎ ]</Click>}$$ :dizzy:</summary>
@@ -28,6 +30,15 @@ Freely contact me for suggestions or information.
 ```	
 </details>
 
+---
+
+ `Images:` Usage for a file path naming scheme with in UPK.file `APBMenus_Art_Achievements.AchievementComplete` example  
+ And it is not required to be specific upper/lower casing, or needed for to enable a tag HUDTexture set to True.  
+ If the path name includes with the group name, add group name in the middle of path file name  `APBMenus_Art_Icons.Reward.Icon_Reward_Emote` example  
+ 
+> [!IMPORTANT]
+> `Images:` Only works in User Interface Element, and not HUD Message Element.
+
 ## Intimidation
 
 | Command | Description |
@@ -38,26 +49,44 @@ Freely contact me for suggestions or information.
 | *HUDTexture* | |
 | ```<APB_Images:Ceremony_Cash;HUDTexture=TRUE>``` | if the HUDTexture text is in, User Interface Element. — _"APBUserInterface.INT"_  etc. |
 | ```<hudtexture:Ceremony_Cash>``` | if the HUDTexture text is in, HUD Message Element. — _"HUDMessages.INT"_ |
+| *Images* | |
+| ```<Images:APBMenus_Art_Achievements.AchievementComplete>``` | if the Image Texture text is in, User Interface Element. — _"APBUserInterface.INT"_  etc. |
+| Unavailable! | — _"HUDMessages.INT"_ |
 
-## Resizing
-
-if you want to resize the Icon Image then use "XL=16 YL=16" and then add "Resize=TRUE" next to it
-| Command | Description |
-| :--- | :--- |
-| *HUDIcon* | |
-| ```<APB_Images:APBCash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>``` | Resizeing HUDIcon text in, User Interface Element.|
-| ```<hudicon:APBCash;XL=16 YL=16 Resize=TRUE>``` | Resizeing HUDIcon text in, HUD Message Element.|  
-| *HUDTexture* | |
-| ```<APB_Images:Ceremony_Cash;XL=16 YL=16 Resize=TRUE HUDTexture=TRUE>``` | Resizeing HUDTexture In User Interface Element. |
-| ```<hudtexture:Ceremony_Cash;XL=16 YL=16 Resize=TRUE HUDIcon=TRUE>``` | Make sure to add "HUDIcon=TRUE" to enable it |
+## Sizing
 
 > [!IMPORTANT]
 > Resizing the HUDTexture might work, but it will specifically bug out and revert to its original size.  
 > Mixing hudicon with hudtexture will not prevent the bug related to the original size
+> Only 'Images:' won't be aaffected by this bug.
+
+ if you want to resize the Icon Image then use "XL=16 YL=16" and then add "Resize=TRUE" next to it
+
+| Command | Description |
+| :--- | :--- |
+| *HUDIcon* | |
+| ```<APB_Images:APBCash;Resize=TRUE XL=16 YL=16 HUDIcon=TRUE>``` | Resizeing HUDIcon text in, User Interface Element.|
+| ```<hudicon:APBCash;Resize=TRUE XL=16 YL=16>``` | Resizeing HUDIcon text in, HUD Message Element.|  
+| *HUDTexture* | |
+| ```<APB_Images:Ceremony_Cash;Resize=TRUE XL=16 YL=16 HUDTexture=TRUE>``` | Resizeing HUDTexture In User Interface Element. |
+| ```<hudtexture:Ceremony_Cash;Resize=TRUE XL=16 YL=16 HUDIcon=TRUE>``` | Make sure to add "HUDIcon=TRUE" to enable it |
+| *Images* | |
+| ```<Images:APBMenus_Art_Achievements.AchievementComplete;Resize=TRUE XL=16 YL=16>``` | Only have Resize set to True. |
+| Unavailable! | |
+
+## Coloring
+
+> [!IMPORTANT]
+> Only works in images, make sure the alpha coloring is set to one. MORE DETAILS SOON.
+
+| Command | Description |
+| :--- | :--- |
+| *Images* | |
+| ```<ImageColour:R=1 G=1 B=1 A=1><Images:APBMenus_Art_Achievements.AchievementComplete;Resize=TRUE XL=16 YL=16>``` | "<ImageColour:R=1 G=1 B=1 A=1>" |
 
 ---
 
-## Listing [ Icon / Texture ]
+## Listing [ HUDIcon / HUDTexture ]
 
 The naming must be specific. this listing is working progress
 
@@ -103,7 +132,7 @@ The naming must be specific. this listing is working progress
   Task_Target_VIP 
   Task_Item_Vehicle   >   Reskins
 
-  AmmoVending
+  AmmoVending   >   White Covered
   Contact
   Waypoint
   Waypoint_Leader
@@ -127,11 +156,11 @@ The naming must be specific. this listing is working progress
   StashDropOff   >   White Covered
   OpenWorldDropOff_Small   >   White Covered
 
-  MarketplaceZone
+  MarketplaceZone   >   White Covered
   InteractionPoint_MusicStudio   >   Not Working
-  InteractionPoint_SymbolEditor
-  InteractionPoint_Wardrobe
-  InteractionPoint_Garage
+  InteractionPoint_SymbolEditor   >   White Covered
+  InteractionPoint_Wardrobe   >   White Covered
+  InteractionPoint_Garage   >   White Covered
   InteractionPoint_Vault
   
   PDA   >   RTW / Shows Nothing
