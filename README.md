@@ -1,8 +1,9 @@
 > [!CAUTION]
-> I am not responsible for any suspensions issues related to your account / game.  
+> I am not responsible for any suspensions issues related to your account or your game.  
 > download and use my configuration at your own risk!  
-> Guidelines APB configuration:  [https://www.gamersfirst.com/apb/news/2024/8/14/sard-faq]  
-> Contact the official Little Orbit email support:  [support@littleorbit.com]
+> 
+> Guidelines APB configuration:  https://www.gamersfirst.com/apb/news/2024/8/14/sard-faq  
+> Official Little Orbit email support:  support@littleorbit.com
 
 ## About
 
@@ -12,17 +13,16 @@
 
  Additional options are included in both the addons and reset folders to make file management easier for restoring the configurations.  
 
- All textual changes have been customized to reflect my personal style and preferences.  
-
  Please note that this configuration focuses on visual customization and does not include any engine tweaks or performance modifications.  
+ All textual changes have been customized to reflect my personal style and preferences.
 
  Since the game has been running on Unreal Engine 3 for nearly two decades :goberserk: let's hope it transitions to a more modder-friendly engine in the near future.
 
-> i made a detailed guide on implementing in-game icon images you can find it more here. [APBIcons](https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md)
+> i made a detailed guide on implementing in-game icon images. for more information click here [APBIcons](https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md)
 
 ## Installation
 
- installation is simple, drag and drop the provided folders into your game directory, then allow any existing files to be replaced when applyed.  
+ to install it is simple, drag and drop the config folders into your game directory, then replaced it with the configuration folder.  
 
 > [!WARNING]
 > if your're currently using other configurations installed in your APB directory.  
@@ -42,11 +42,11 @@
 </details>
 
 > [!IMPORTANT]
-> Always remember to launch the game via the shortcut application, instead of the main APB launcher.
-> The main launcher will automatically repair and reset your configuration files.
+> Always remember to launch the game via the shortcut application, instead of the main APB launcher.  
+> then opening up the main launcher it will automatically repair and reset your configuration files.
 
-> ## To Uninstall
-> to revert back to vanilla game, simply open up the main APB launcher and click the repair button. 
+> ### To Uninstall
+> to revert back to the vanilla game, simply open up the main APB launcher and click the repair button. 
 
 ## Main Key Features
 - ### New Death Cam Text With Lower Alignment
@@ -57,7 +57,7 @@
 > text markers will effects the map viewer tooltip and it only shows the icons with the break lines  
 > you can view more options in `[V] Options > [1] HUD Objective Markers` folders.
 - ### Minimized Overtime + Task Mission Text Notifier
-![Preview](https://i.imgur.com/uiSS5JG.png)
+![Preview](https://i.imgur.com/XXedsqn.png)
 - ### Weapons Loadout Categories With Icons
 ![Preview](https://i.imgur.com/6eVmIjW.png)
 - ### Minimized Reload Text
@@ -65,7 +65,7 @@
 - ### Minimized Resupply Text
 ![Preview](https://i.imgur.com/wiakqkZ.png)
 - ### Improved Buttom HUD Info + Vehicle Status
-![Preview](https://i.imgur.com/wuVLySi.png)
+![Preview](https://i.imgur.com/yMooIfL.png)
 - ### Tooltip Icons
 ![Preview](https://i.imgur.com/dvMmpKm.png)
 - ### New Main Menu 
