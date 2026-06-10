@@ -1,4 +1,0 @@
-
-This HUD Messages addon replicate the textual look of RTW (Real Time Worlds) text in-game which appear at the top middle text of the screen ( while resupplying or out of ammo)
-with-in this text file includes font manipulation with the OVERTIME size font, task delivery and other aspects that is undoable with in the HUD Messages elements this is due to how the game was programmed.
-and at the top right of the corner of screen is includes the classic HUD Killfeeds, sadly i couldn't find the exclamation point texture, because it had APB_Images tag function, so i resulted to use the unused ceremony textures instead.

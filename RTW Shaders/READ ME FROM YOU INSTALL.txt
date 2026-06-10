@@ -1,0 +1,11 @@
+
+ I am not responsible for any suspensions issues related to your account or your game. use RTW Shaders at your own risk! using shaders is falls in a grey area of the LO guidelines.
+ 
+ Real Time Worlds (RTW) Shaders reduces the bloom affect during the day and restore vibrant colors that have been missing from game.
+ 
+ Review Images: https://imgur.com/a/uXnb7Aw
+ 
+ to install it: is simple, drag and drop the config folders into your game directory, then replaced it with the configuration folder
+ 
+ to uninstall it: Please remove "YCrCbPixelShader.usf" manually if you applied the "[2] Full RTW Shaders" then open up the main APB launcher and click the repair button.
+ or use the "[X] Factory Reset" folder if you dont want to use the repair button.
