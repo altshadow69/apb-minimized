@@ -1,0 +1,2 @@
+
+  -  to remove this addon. just remove "MissionTemplates.GER" from inside "GER" folder at [C:\***\APB Reloaded\APBGame\Localization\GER].

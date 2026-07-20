@@ -34,7 +34,7 @@ Freely contact me for suggestions or information.
 
  `Images:` Usage for a file path naming scheme with in UPK.file `APBMenus_Art_Achievements.AchievementComplete` example  
  And it is not required to be specific upper/lower casing, or needed for to enable a tag HUDTexture set to True.  
- If the path name includes with the group name, add group name in the middle of path file name  `APBMenus_Art_Icons.Reward.Icon_Reward_Emote` example  
+ If the path name includes with the group name, add group name in the middle of path file name `APBMenus_Art_Icons.Reward.Icon_Reward_Emote` example  
  
 > [!IMPORTANT]
 > `Images:` Only works in User Interface Element, and not HUD Message Element.
@@ -51,14 +51,14 @@ Freely contact me for suggestions or information.
 | ```<hudtexture:Ceremony_Cash>``` | if the HUDTexture text is in, HUD Message Element. — _"HUDMessages.INT"_ |
 | *Images* | |
 | ```<Images:APBMenus_Art_Achievements.AchievementComplete>``` | if the Image Texture text is in, User Interface Element. — _"APBUserInterface.INT"_  etc. |
-| Unavailable! | — _"HUDMessages.INT"_ |
+| ```<img:None>``` unused | code of it exist but with oddities, it uses the APB_Images template but the HUDIcon has been set to false, and it just simply print out the code line.  |
 
 ## Sizing
 
 > [!IMPORTANT]
 > Resizing the HUDTexture might work, but it will specifically bug out and revert to its original size.  
 > Mixing hudicon with hudtexture will not prevent the bug related to the original size
-> Only 'Images:' won't be aaffected by this bug.
+> Only 'Images:' won't be affected by this bug.
 
  if you want to resize the Icon Image then use "XL=16 YL=16" and then add "Resize=TRUE" next to it
 
@@ -77,7 +77,9 @@ Freely contact me for suggestions or information.
 ## Coloring
 
 > [!IMPORTANT]
-> Only works in images, make sure the alpha coloring is set to one. MORE DETAILS SOON.
+> If `APB_Images` is applied, the game will automatically generate the white color from the first line of code following the `APB_Images` command. and cannot be overridden.  
+> Some UI Element like in, Shop UI / Mission Titles-Description UI, will render the color alpha has `A=0` and it will appear as nothing, to enable it just set the ImageColour as `<ImageColour:A=1>`  
+> ImageColour only works in User Interface Element, and Not the HUD Message Element.  
 
 | Command | Description |
 | :--- | :--- |

@@ -1,26 +1,26 @@
 
 [Medals]
 
-Medals_KillStreak_05_Title=Juggernaut "Nickel"
+Medals_KillStreak_05_Title=Juggernaut Rank 1
 Medals_KillStreak_05_Description=Kill five opponents without dying.
-Medals_KillStreak_10_Title=Juggernaut "Copper"
+Medals_KillStreak_10_Title=Juggernaut Rank 2
 Medals_KillStreak_10_Description=Kill ten opponents without dying.
-Medals_KillStreak_15_Title=Juggernaut "Steel"
+Medals_KillStreak_15_Title=Juggernaut Rank 3
 Medals_KillStreak_15_Description=Kill fifteen opponents without dying.
-Medals_KillStreak_20_Title=Juggernaut "Bronze"
+Medals_KillStreak_20_Title=Juggernaut Rank 4
 Medals_KillStreak_20_Description=Kill twenty opponents without dying.
-Medals_KillStreak_25_Title=Juggernaut "Silver"
+Medals_KillStreak_25_Title=Juggernaut Rank 5
 Medals_KillStreak_25_Description=Kill twenty-five opponents without dying.
-Medals_KillStreak_30_Title=Juggernaut "Gold"
+Medals_KillStreak_30_Title=Juggernaut Rank 6
 Medals_KillStreak_30_Description=Kill thirty opponents without dying.
  
-Medals_TimeLimit_Kills_2_Title=Blitzkrieg "Steel"
+Medals_TimeLimit_Kills_2_Title=Blitzkrieg Rank 1
 Medals_TimeLimit_Kills_2_Description=Kill 2 opponents within 5 seconds.
-Medals_TimeLimit_Kills_3_Title=Blitzkrieg "Bronze"
+Medals_TimeLimit_Kills_3_Title=Blitzkrieg Rank 2
 Medals_TimeLimit_Kills_3_Description=Kill 3 opponents within 10 seconds.
-Medals_TimeLimit_Kills_4_Title=Blitzkrieg "Silver"
+Medals_TimeLimit_Kills_4_Title=Blitzkrieg Rank 3
 Medals_TimeLimit_Kills_4_Description=Kill 4 opponents within 15 seconds.
-Medals_TimeLimit_Kills_5_Title=Blitzkrieg "Gold"
+Medals_TimeLimit_Kills_5_Title=Blitzkrieg Rank 4
 Medals_TimeLimit_Kills_5_Description=Kill 5 opponents within 25 seconds.
  
 Medals_Situational_SuperKill_Title=Decimator
@@ -59,37 +59,37 @@ Medals_Situational_PostDeathKill_Description=Kill an opponent after your own dea
 Medals_Situational_VIPKill_Title=Assassination
 Medals_Situational_VIPKill_Description=Kill the VIP opponent.
  
-Medals_BigWin_Takeout_5_Title=Reaper "Copper"
+Medals_BigWin_Takeout_5_Title=Reaper Rank 1
 Medals_BigWin_Takeout_5_Description=Win with at least 5 kills.
-Medals_BigWin_Takeout_7_Title=Reaper "Steel"
+Medals_BigWin_Takeout_7_Title=Reaper Rank 2
 Medals_BigWin_Takeout_7_Description=Win with at least 7 kills.
-Medals_BigWin_Takeout_9_Title=Reaper "Bronze"
+Medals_BigWin_Takeout_9_Title=Reaper Rank 3
 Medals_BigWin_Takeout_9_Description=Win with at least 9 kills.
-Medals_BigWin_Takeout_11_Title=Reaper "Silver"
+Medals_BigWin_Takeout_11_Title=Reaper Rank 4
 Medals_BigWin_Takeout_11_Description=Win with at least 11 kills.
-Medals_BigWin_Takeout_15_Title=Reaper "Gold"
+Medals_BigWin_Takeout_15_Title=Reaper Rank 5
 Medals_BigWin_Takeout_15_Description=Win with at least 15 kills.
  
-Medals_BigWin_Arrest_10_25_Title=Judicator "Copper"
+Medals_BigWin_Arrest_10_25_Title=Judicator Rank 1
 Medals_BigWin_Arrest_10_25_Description=Win with 25% of arrests.
-Medals_BigWin_Arrest_10_33_Title=Judicator "Steel"
+Medals_BigWin_Arrest_10_33_Title=Judicator Rank 2
 Medals_BigWin_Arrest_10_33_Description=Win with 33% of arrests.
-Medals_BigWin_Arrest_10_50_Title=Judicator "Bronze"
+Medals_BigWin_Arrest_10_50_Title=Judicator Rank 3
 Medals_BigWin_Arrest_10_50_Description=Win with 50% of arrests.
-Medals_BigWin_Arrest_10_75_Title=Judicator "Silver"
+Medals_BigWin_Arrest_10_75_Title=Judicator Rank 4
 Medals_BigWin_Arrest_10_75_Description=Win with 75% of arrests.
-Medals_BigWin_Arrest_10_100_Title=Judicator "Gold"
+Medals_BigWin_Arrest_10_100_Title=Judicator Rank 5
 Medals_BigWin_Arrest_10_100_Description=Win with 100% of arrests.
 
-Medals_BigWin_Rescue_3_Title=Good Shepherd "Copper"
+Medals_BigWin_Rescue_3_Title=Good Shepherd Rank 1
 Medals_BigWin_Rescue_3_Description=Rescue 3 teammates from arrest.
-Medals_BigWin_Rescue_6_Title=Good Shepherd "Steel"
+Medals_BigWin_Rescue_6_Title=Good Shepherd Rank 2
 Medals_BigWin_Rescue_6_Description=Rescue 6 teammates from arrest.
-Medals_BigWin_Rescue_9_Title=Good Shepherd "Bronze"
+Medals_BigWin_Rescue_9_Title=Good Shepherd Rank 3
 Medals_BigWin_Rescue_9_Description=Rescue 9 teammates from arrest.
-Medals_BigWin_Rescue_12_Title=Good Shepherd "Silver"
+Medals_BigWin_Rescue_12_Title=Good Shepherd Rank 4
 Medals_BigWin_Rescue_12_Description=Rescue 12 teammates from arrest.
-Medals_BigWin_Rescue_15_Title=Good Shepherd "Gold"
+Medals_BigWin_Rescue_15_Title=Good Shepherd Rank 5
 Medals_BigWin_Rescue_15_Description=Rescue 15 teammates from arrest.
  
 Medals_Dishonour_ArrestedKill_1_Title=Police Battery: 1

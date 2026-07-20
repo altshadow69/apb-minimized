@@ -56,6 +56,8 @@
 > [!NOTE]
 > text markers will effects the map viewer tooltip and it only shows the icons with the break lines  
 > you can view more options in `[V] Options > [1] HUD Objective Markers` folders.
+- ### Minimized Combat Messages To A Single Alignment
+![Preview](https://i.imgur.com/idYdAVl.png)
 - ### Minimized Overtime + Task Mission Text Notifier
 ![Preview](https://i.imgur.com/XXedsqn.png)
 - ### Weapons Loadout Categories With Icons

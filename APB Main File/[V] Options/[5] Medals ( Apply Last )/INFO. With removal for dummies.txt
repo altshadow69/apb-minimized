@@ -1,0 +1,5 @@
+
+  -  Ranked: is for the APB defaulted numbering scheme
+  -  Metal Coded: is for the medal naming scheme, such as Bronze, Silver, and Gold.
+
+  -  if you hate the naming scheme of this addon medals plus description. to remove this addon, just remove "Medals.GER" from inside "GER" folder at [C:\***\APB Reloaded\APBGame\Localization\GER], and let the APB INT file read the rest.
