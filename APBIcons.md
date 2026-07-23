@@ -44,14 +44,14 @@ Freely contact me for suggestions or information.
 | Command | Description |
 | :--- | :--- |
 | *HUDIcon* | |
-| ```<APB_Images:APBCash;HUDIcon=TRUE>``` | if the HUDIcon text is in, User Interface Element. — _"APBUserInterface.INT"_  etc. |
-| ```<hudicon:APBCash>``` | if the HUDIcon text is in, HUD Message Element. — _"HUDMessages.INT"_ |
+| ```<APB_Images:APBCash;HUDIcon=TRUE>``` | if the HUDIcon text is in, User Interface Element. · _"APBUserInterface.INT"_ etc. |
+| ```<hudicon:APBCash>``` | if the HUDIcon text is in, HUD Message Element. · _"HUDMessages.INT"_ |
 | *HUDTexture* | |
-| ```<APB_Images:Ceremony_Cash;HUDTexture=TRUE>``` | if the HUDTexture text is in, User Interface Element. — _"APBUserInterface.INT"_  etc. |
-| ```<hudtexture:Ceremony_Cash>``` | if the HUDTexture text is in, HUD Message Element. — _"HUDMessages.INT"_ |
+| ```<APB_Images:Ceremony_Cash;HUDTexture=TRUE>``` | if the HUDTexture text is in, User Interface Element. · _"APBUserInterface.INT"_ etc. |
+| ```<hudtexture:Ceremony_Cash>``` | if the HUDTexture text is in, HUD Message Element. · _"HUDMessages.INT"_ |
 | *Images* | |
-| ```<Images:APBMenus_Art_Achievements.AchievementComplete>``` | if the Image Texture text is in, User Interface Element. — _"APBUserInterface.INT"_  etc. |
-| ```<img:None>``` unused | code of it exist but with oddities, it uses the APB_Images template but the HUDIcon has been set to false, and it just simply print out the code line.  |
+| ```<Images:APBMenus_Art_Achievements.AchievementComplete>``` | if the Image Texture text is in, User Interface Element. · _"APBUserInterface.INT"_ |
+| ```<img:None>``` `unused` | code of it exist but with oddities, it uses the APB_Images template but the HUDIcon has been set to false, and it just simply print out the code line.  |
 
 ## Sizing
 
@@ -65,26 +65,30 @@ Freely contact me for suggestions or information.
 | Command | Description |
 | :--- | :--- |
 | *HUDIcon* | |
-| ```<APB_Images:APBCash;Resize=TRUE XL=16 YL=16 HUDIcon=TRUE>``` | Resizeing HUDIcon text in, User Interface Element.|
-| ```<hudicon:APBCash;Resize=TRUE XL=16 YL=16>``` | Resizeing HUDIcon text in, HUD Message Element.|  
+| ```<APB_Images:***;Resize=TRUE XL=16 YL=16 HUDIcon=TRUE>``` | Resizeing HUDIcon text in, User Interface Element.|
+| ```<hudicon:***;Resize=TRUE XL=16 YL=16>``` | Resizeing HUDIcon text in, HUD Message Element.|  
 | *HUDTexture* | |
-| ```<APB_Images:Ceremony_Cash;Resize=TRUE XL=16 YL=16 HUDTexture=TRUE>``` | Resizeing HUDTexture In User Interface Element. |
-| ```<hudtexture:Ceremony_Cash;Resize=TRUE XL=16 YL=16 HUDIcon=TRUE>``` | Make sure to add "HUDIcon=TRUE" to enable it |
+| ```<APB_Images:***;Resize=TRUE XL=16 YL=16 HUDTexture=TRUE>``` | Resizeing HUDTexture In User Interface Element. |
+| ```<hudtexture:***;Resize=TRUE XL=16 YL=16 HUDIcon=TRUE>``` | Make sure to add "HUDIcon=TRUE" to enable it |
 | *Images* | |
-| ```<Images:APBMenus_Art_Achievements.AchievementComplete;Resize=TRUE XL=16 YL=16>``` | Only have Resize set to True. |
+| ```<Images:***;Resize=TRUE XL=16 YL=16>``` | Only have Resize set to True. |
 | Unavailable! | |
 
 ## Coloring
 
 > [!IMPORTANT]
 > If `APB_Images` is applied, the game will automatically generate the white color from the first line of code following the `APB_Images` command. and cannot be overridden.  
+
+> [!WARNING]
 > Some UI Element like in, Shop UI / Mission Titles-Description UI, will render the color alpha has `A=0` and it will appear as nothing, to enable it just set the ImageColour as `<ImageColour:A=1>`  
+
+> [!NOTE]
 > ImageColour only works in User Interface Element, and Not the HUD Message Element.  
 
 | Command | Description |
 | :--- | :--- |
 | *Images* | |
-| ```<ImageColour:R=1 G=1 B=1 A=1><Images:APBMenus_Art_Achievements.AchievementComplete;Resize=TRUE XL=16 YL=16>``` | "<ImageColour:R=1 G=1 B=1 A=1>" |
+| ```<ImageColour:R=1 G=1 B=1 A=1><Images:***;Resize=TRUE XL=16 YL=16>``` | "<ImageColour:R=1 G=1 B=1 A=1>" |
 
 ---
 
