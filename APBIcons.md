@@ -101,182 +101,165 @@ The naming must be specific. this listing is working progress
 
  •  —  —  —  —  —  —  —  —  —  Icons
 	
-  None   >   Shows Nothing
-
   APBCash
+  AmmoVending					   >   White Covered
+  Contact
+  DisplayPoint
+  Elective_Corpse				   >   Reskin
+  Elective_VehicleSpawn
+  Faction_Criminal
+  Faction_Enforcer
+  GMPlayer						   >   RTW / Shows Nothing
+  GroupLeader					   >   White Covered
+  GroupPlayer
   Icon_JokerTickets
+  InteractionPoint_Garage		   >   White Covered
+  InteractionPoint_MusicStudio	   >   Not Working
+  InteractionPoint_SymbolEditor	   >   White Covered
+  InteractionPoint_Vault
+  InteractionPoint_Wardrobe		   >   White Covered
+  Mailbox
+  MarketplaceZone				   >   White Covered
+  MobileRadarTower
+  None							   >   Shows Nothing
+  OpenWorldDropOff_Small		   >   White Covered
+  OppositionPlayer				   >   RTW / Shows Nothing
+  PDA							   >   RTW / Shows Nothing
+  PlayerVehicle
+  PlayerVehicleWithTaskItem		   >   Reskin
   Rating
-	
-  Status_None
-  Status_Ready
+  SpawnZone
+  SpawnZone_Criminal			   >   Reskin
+  SpawnZone_Enforcer			   >   Reskin
+  SpawnZone_Factionless			   >   Reskin
+  StashDropOff					   >   White Covered
   Status_AFK
-  Status_DND
-  Status_Busy   >   Not Working
   Status_Arrested
-  Status_Stunned
-  Status_Dead
-  Status_Driving
+  Status_Busy					   >   Not Working
   Status_Crown
-  Status_TaskParticipant   >   Shows Nothing ( Note: Probably its the weird thumbs up icon in the texture sheet, but never used. )
+  Status_DND
+  Status_Dead
+  Status_Disconnected			   >   Not Working
+  Status_Driving
   Status_NonTaskParticipant
-  Status_Disconnected   >   Not Working
-  Status_OutOfDistrict   >   Not Working
-
+  Status_None
+  Status_OutOfDistrict			   >   Not Working
+  Status_Ready
+  Status_Stunned
+  Status_TaskParticipant   >   Shows Nothing ( Note: Probably its the weird thumbs up icon in the texture sheet, but never used. )
+  Task_Checkpoint
+  Task_Checkpoint_Occ
+  Task_Item
+  Task_Item_Occ					   >   Reskins
+  Task_Item_Vehicle				   >   Reskins
+  Task_Target
+  Task_Target_Occ
+  Task_Target_VIP 
+  TestItem						   >   RTW / Reskin / White Covered
   VOIP_Active_High
-  VOIP_Active_Medium
   VOIP_Active_Low
+  VOIP_Active_Medium
   VOIP_InChannel
   VOIP_Muted
   VOIP_NotInChannel
-
-  Task_Checkpoint
-  Task_Checkpoint_Occ
-  Task_Target
-  Task_Target_Occ
-  Task_Item
-  Task_Item_Occ   >   Reskins
-  Task_Target_VIP 
-  Task_Item_Vehicle   >   Reskins
-
-  AmmoVending   >   White Covered
-  Contact
+  VehicleRepair
+  VehicleSpawn
   Waypoint
   Waypoint_Leader
-  DisplayPoint
-  SpawnZone
-  Mailbox
-  PlayerVehicle
-  PlayerVehicleWithTaskItem   >   Reskin
-  VehicleSpawn
-  VehicleRepair
-  MobileRadarTower
-  Elective_Corpse   >   Reskin
-
-  Faction_Criminal
-  Faction_Enforcer
-
-  GroupPlayer
-  GroupLeader   >   White Covered
-  OppositionPlayer   >   RTW / Shows Nothing
-
-  StashDropOff   >   White Covered
-  OpenWorldDropOff_Small   >   White Covered
-
-  MarketplaceZone   >   White Covered
-  InteractionPoint_MusicStudio   >   Not Working
-  InteractionPoint_SymbolEditor   >   White Covered
-  InteractionPoint_Wardrobe   >   White Covered
-  InteractionPoint_Garage   >   White Covered
-  InteractionPoint_Vault
-  
-  PDA   >   RTW / Shows Nothing
 
  +  —  —  —  Taggers
 
   Spotter
-
+  Tagger_Cat
   Tagger_Default
   Tagger_Duck
-  Tagger_Valentines
-	
+  Tagger_PurpleCat
+  Tagger_Rapid99
+  Tagger_Reaper
+  Tagger_Sluttles
   Tagger_Suit_Clubs
   Tagger_Suit_Diamond
   Tagger_Suit_Hearts
-  Tagger_Suit_Spades
   Tagger_Suit_Joker
-
-  Tagger_PurpleCat
-  Tagger_Cat
-  Tagger_Rapid99
-  Tagger_Sluttles
-  Tagger_Reaper
-
+  Tagger_Suit_Spades
+  Tagger_Valentines
 
  +  —  —  —  Events
 
-  Minigame_GunGame
-  Minigame_GunGame_Joker
-
-  Minigame_Mugging_Item_Egg
-  Minigame_Mugging_Protagonist_Easter
-  Minigame_Mugging_Carrier_Easter
-  
-  Minigame_Mugging_Item
-  Minigame_Mugging_Protagonist
-  Minigame_Mugging_Carrier
-  Minigame_Mugging_NPC
-
-  Minigame_GoldenWeapon_Easter_Protagonist
-  Minigame_GoldenWeapon_Explosive
-	
-  Minigame_Infection_Survivor
-  Minigame_Infection_Pumpkin
-  Minigame_Infection_Headless
-  
-  Minigame_SlayBells_FrozenBlock
-  Minigame_SnowballFight
-	
-  Minigame_Epidemic_Warehouse
-  Minigame_Epidemic_Hazmat
-  Minigame_Epidemic_Zombicine
-  Minigame_Epidemic_Undedox
-  Minigame_Epidemic_Necrocite
   Minigame_Epidemic_Barrel
   Minigame_Epidemic_BarrelStack
-
-  Minigame_Survival_Cash
-  Minigame_Survival_WeaponSecondaryUnlock
-  Minigame_Survival_WeaponLegendary
+  Minigame_Epidemic_Hazmat
+  Minigame_Epidemic_Necrocite
+  Minigame_Epidemic_Undedox
+  Minigame_Epidemic_Warehouse
+  Minigame_Epidemic_Zombicine
+  Minigame_GoldenWeapon_Easter_Protagonist
+  Minigame_GoldenWeapon_Explosive
+  Minigame_GunGame
+  Minigame_GunGame_Joker
+  Minigame_Infection_Headless
+  Minigame_Infection_Pumpkin
+  Minigame_Infection_Survivor
+  Minigame_Mugging_Carrier
+  Minigame_Mugging_Carrier_Easter
+  Minigame_Mugging_Item
+  Minigame_Mugging_Item_Egg
+  Minigame_Mugging_NPC
+  Minigame_Mugging_Protagonist
+  Minigame_Mugging_Protagonist_Easter
+  Minigame_SlayBells_FrozenBlock
+  Minigame_SnowballFight
   Minigame_Survival_Bomb
+  Minigame_Survival_Cash
   Minigame_Survival_Hazmat
+  Minigame_Survival_WeaponLegendary
+  Minigame_Survival_WeaponPrimary
+  Minigame_Survival_WeaponSecondary
+  Minigame_Survival_WeaponSecondaryUnlock
 
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
  •  —  —  —  —  —  —  —  —  —  Textures
 
-  Icon_Locker_Generic_Token
-  Icon_Locker_Generic_Symbols
-  Icon_Reward_Emote
-  Icon_Reward_Vinyl
-  Icon_Reward_Bio   >   Not Working
-  Icon_GenericBundle_Sack
-  Icon_GenericBundle_Crate
-  Icon_Scoreboard_Generic_Clan
-  Icon_Scoreboard_Generic_Player
-  Icon_Medal_Default
-	
-  Icon_Title_Question
-  Icon_Title_Symbol_Save
-  Icon_Title_Rename
-  Icon_Title_Destroy
-  
-  CharacterCreation
-
-  Ceremony_GenericUnlock
-  Ceremony_WinStreak
-  Ceremony_KillStreak
   Ceremony_ArrestStreak
-  Ceremony_TutorialComplete
-  Ceremony_NewWeapons
-  Ceremony_NewVehiclesParts
-  Ceremony_NewThemesInstruments
-  Ceremony_NewUpgrades
-  Ceremony_NewSymbols
-  Ceremony_NewSong
+  Ceremony_BadShot
+  Ceremony_Bounty
+  Ceremony_BountyClaimed
+  Ceremony_Cash
+  Ceremony_GenericUnlock
+  Ceremony_KillStreak
+  Ceremony_LeagueWinner
+  Ceremony_MissionStarted		   >   Not Working
+  Ceremony_NewClothing
+  Ceremony_NewEmotes
+  Ceremony_NewEquipment
   Ceremony_NewPrimitives
   Ceremony_NewSlot
-  Ceremony_NewEquipment
-  Ceremony_NewEmotes
-  Ceremony_NewClothing
-  Ceremony_MissionStarted   >   Not Working
-  Ceremony_LeagueWinner
-  Ceremony_BountyClaimed
-  Ceremony_Bounty
-  Ceremony_BadShot
-  Ceremony_Cash
-  
+  Ceremony_NewSong
+  Ceremony_NewSymbols
+  Ceremony_NewThemesInstruments
+  Ceremony_NewUpgrades
+  Ceremony_NewVehiclesParts
+  Ceremony_NewWeapons
+  Ceremony_TutorialComplete
+  Ceremony_WinStreak
+  CharacterCreation
   Contact_Up
-	
+  Icon_GenericBundle_Crate
+  Icon_GenericBundle_Sack
+  Icon_Locker_Generic_Symbols
+  Icon_Locker_Generic_Token
+  Icon_Medal_Default
+  Icon_Reward_Bio				   >   Not Working
+  Icon_Reward_Emote
+  Icon_Reward_Vinyl
+  Icon_Scoreboard_Generic_Clan
+  Icon_Scoreboard_Generic_Player
+  Icon_Title_Destroy
+  Icon_Title_Question
+  Icon_Title_Rename
+  Icon_Title_Symbol_Save
+
  +  —  —  —  Category
 	
   * Note: Use "https://apbdb.com" / "InventoryItemTypes.INT" / "Ellix Assets Rip" for references. thats my method.
@@ -288,82 +271,67 @@ The naming must be specific. this listing is working progress
   Vehicle_*            >   Example  ` Vehicle_PatriotVegasG20 `
 
   Icon_Achievement_*   >   Example  ` Icon_Achievement_KillStats_FromBehind ` / [https://apbdb.com/achievements]
-		
+
   Icon_Achievement_Christmas_Frozen
   Icon_Achievement_Christmas_GunRunner
   Icon_Achievement_Christmas_SantaSlayer
   icon_achievement_gotnewstuff
-		
+
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 ```
 Images Here ( ONLY IN USER INTERFACE ELEMENT )
 ```
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 
-APBMenus_Art_InfoBrowser.Unlocked
-APBMenus_Art_Adam.icon_clock_32
-APBMenus_Art_EquipmentIcons.Icon_Equipment_CrowBarLV0
-
-APBMenus_Art_InfoBrowserIcons.Valid_Ram-Raid_Garage_Door
-APBMenus_Art_InfoBrowserIcons.Valid_Ram-Raid_Shopfront
-
-APBMenus_Art_InfoBrowserIcons.Graffiti_Display_Point
-APBMenus_Art_InfoBrowserIcons.Vehicle_Display_Point
-APBMenus_Art_InfoBrowserIcons.Statue_Display_Point
-APBMenus_Art_InfoBrowserIcons.Audio_Display_Point
-
-APBMenus_Art_InfoBrowserIcons.Designer_Terminal
-APBMenus_Art_InfoBrowserIcons.Vehicle_Spawn_Terminal
-APBMenus_Art_InfoBrowserIcons.Music_Studio_Terminal
-APBMenus_Art_InfoBrowserIcons.Marketplace_Terminal
-APBMenus_Art_InfoBrowserIcons.Wardrobe_Terminal
-APBMenus_Art_InfoBrowserIcons.Persona_Terminal
-APBMenus_Art_InfoBrowserIcons.Garage_Terminal
-APBMenus_Art_InfoBrowserIcons.Ammo_Terminal
-
-APBMenus_Art_Mail.Reward_Package
-
-APBMenus_Art_InfoBrowserIcons.Mailbox
-APBMenus_Art_InfoBrowserIcons.Fence
-APBMenus_Art_InfoBrowserIcons.Door
-APBMenus_Art_InfoBrowserIcons.Neutral_Vehicle
-APBMenus_Art_InfoBrowserIcons.Friendly_Vehicle
-APBMenus_Art_InfoBrowserIcons.Enemy_Vehicle
-APBMenus_Art_InfoBrowserIcons.Stolen_Vehicle
-
-APBMenus_Art_Reticule.Speaker
-
-APBMenus_Art_InfoBrowserIcons.Enforcer_Investigate
-APBMenus_Art_InfoBrowserIcons.Burglary
-APBMenus_Art_InfoBrowserIcons.ForcedEntry
-APBMenus_Art_InfoBrowserIcons.Arson
-APBMenus_Art_InfoBrowserIcons.Scan
-APBMenus_Art_InfoBrowserIcons.Bomb
-APBMenus_Art_InfoBrowserIcons.BombDefusal
-APBMenus_Art_InfoBrowserIcons.LCPedestrian
-
-APBMenus_Art_Jonathan.APB_Button_SortList_ArrowUp_3
-APBMenus_Art_Jonathan.APB_Button_SortList_ArrowDown_3
-
-APBMenus_Art_Jeshua.Slider_Arrow_Horizontal_Up_Active
-APBMenus_Art_Jeshua.Slider_Arrow_Horizontal_Down_Active
-
-APBMenus_Art_DistrictMap.Arrowhead
-APBMenus_Art_DistrictMap.SliderMarker
-APBMenus_Art_Social.District_Available
-APBMenus_Art_Social.District_Full
-
-APBMenus_Art_PopUpMenu.hUIButton_MenuButton
-
 APBMenus_Art.GenericIcons.PlayPosition_Bar
 APBMenus_Art.WindowComponents.APB_ListItem_CheckEnabled
-APBMenus_Art_ChatInterface.Close_Tab_Icon
 APBMenus_Art.WindowComponents.List_Item_New_01
-
-APBMenus_Art_GameFlowScenes.worldselecticon
-
+APBMenus_Art_Adam.icon_clock_32
+APBMenus_Art_ChatInterface.Close_Tab_Icon
 APBMenus_Art_ClothingCustomisation.SideArrowShow
-
+APBMenus_Art_DistrictMap.Arrowhead
+APBMenus_Art_DistrictMap.SliderMarker
+APBMenus_Art_EquipmentIcons.Icon_Equipment_CrowBarLV0
+APBMenus_Art_GameFlowScenes.worldselecticon
+APBMenus_Art_InfoBrowser.Unlocked
+APBMenus_Art_InfoBrowserIcons.Ammo_Terminal
+APBMenus_Art_InfoBrowserIcons.Arson
+APBMenus_Art_InfoBrowserIcons.Audio_Display_Point
+APBMenus_Art_InfoBrowserIcons.Bomb
+APBMenus_Art_InfoBrowserIcons.BombDefusal
+APBMenus_Art_InfoBrowserIcons.Burglary
+APBMenus_Art_InfoBrowserIcons.Designer_Terminal
+APBMenus_Art_InfoBrowserIcons.Door
+APBMenus_Art_InfoBrowserIcons.Enemy_Vehicle
+APBMenus_Art_InfoBrowserIcons.Enforcer_Investigate
+APBMenus_Art_InfoBrowserIcons.Fence
+APBMenus_Art_InfoBrowserIcons.ForcedEntry
+APBMenus_Art_InfoBrowserIcons.Friendly_Vehicle
+APBMenus_Art_InfoBrowserIcons.Garage_Terminal
+APBMenus_Art_InfoBrowserIcons.Graffiti_Display_Point
+APBMenus_Art_InfoBrowserIcons.LCPedestrian
+APBMenus_Art_InfoBrowserIcons.Mailbox
+APBMenus_Art_InfoBrowserIcons.Marketplace_Terminal
+APBMenus_Art_InfoBrowserIcons.Music_Studio_Terminal
+APBMenus_Art_InfoBrowserIcons.Neutral_Vehicle
+APBMenus_Art_InfoBrowserIcons.Persona_Terminal
+APBMenus_Art_InfoBrowserIcons.Scan
+APBMenus_Art_InfoBrowserIcons.Statue_Display_Point
+APBMenus_Art_InfoBrowserIcons.Stolen_Vehicle
+APBMenus_Art_InfoBrowserIcons.Valid_Ram-Raid_Garage_Door
+APBMenus_Art_InfoBrowserIcons.Valid_Ram-Raid_Shopfront
+APBMenus_Art_InfoBrowserIcons.Vehicle_Display_Point
+APBMenus_Art_InfoBrowserIcons.Vehicle_Spawn_Terminal
+APBMenus_Art_InfoBrowserIcons.Wardrobe_Terminal
+APBMenus_Art_Jeshua.Slider_Arrow_Horizontal_Down_Active
+APBMenus_Art_Jeshua.Slider_Arrow_Horizontal_Up_Active
+APBMenus_Art_Jonathan.APB_Button_SortList_ArrowDown_3
+APBMenus_Art_Jonathan.APB_Button_SortList_ArrowUp_3
+APBMenus_Art_Mail.Reward_Package
+APBMenus_Art_PopUpMenu.hUIButton_MenuButton
+APBMenus_Art_Reticule.Speaker
+APBMenus_Art_Social.District_Available
+APBMenus_Art_Social.District_Full
 APBMenus_Art_VendingIcons.icon_manufactured
 
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
@@ -381,6 +349,8 @@ APBMenus__Art_CrimeEventAlert.CEA_HUB
 APBMenus__Art_CrimeEventAlert.CEA_BG_Red_Mat
 APBMenus__Art_CrimeEventAlert.CEA_BG_03_Mat
 APBMenus_Art.WindowComponents.GlossyBLink
+Prestige_Attained_Material
+Notoriety_Attained_Material
 
 / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
 ```
