@@ -71,9 +71,9 @@
 - ### Tooltip Icons
 ![Preview](https://i.imgur.com/dvMmpKm.png)
 - ### New Main Menu 
-![Preview](https://i.imgur.com/a4cSMT4.png)
-- ### Transparent UI
-![Preview](https://i.imgur.com/TSKGCxT.png)
+![Preview](https://i.imgur.com/5PSFcOA.png)
+- ### Transparent Loadout UI
+![Preview](https://i.imgur.com/BBiF7Lm.png)
 
 - and much more.
 
@@ -81,10 +81,8 @@
 
 ## Credits
 ```
- A-Z
- +  AltShadow		— Icon Guide [ https://github.com/altshadow69/apb-minimized/blob/main/APBIcons.md ]
- +  EllixOnline		— Images Assets Rips, As reference.
- +	Leefekyn		— Mission Titles ( originally made titles config, and now its been modified by AltShadow )
+ +  Leefekyn		— Mission Titles ( and now its been modified by AltShadow )
  +  Myamai			— Hosting Localization Resources Site [ https://myamai.neocities.org/apb/localization ]
  +  writch			— Hosting Config Tool Site [ https://apb.gallery/config ]
+ +  xesurient		— Hosting Images Lookups [ https://xesurient.github.io/apb-tools/images ]
 ```
